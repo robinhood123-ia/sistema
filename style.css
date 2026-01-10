@@ -31,15 +31,16 @@ header {
 .valve-card.active {
   background: rgba(0, 255, 234, 0.3);
 
+
   body {
     min-height: 100vh;
     margin: 0;
     font-family: 'Inter', 'Roboto', Arial, sans-serif;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg, #f8ffae 0%, #43cea2 100%);
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
   }
 
   header {
@@ -47,61 +48,81 @@ header {
     margin-bottom: 2rem;
   }
 
+
   #login-form {
-    background: #fff;
-    border-radius: 18px;
-    box-shadow: 0 8px 32px rgba(60, 60, 120, 0.12);
+    background: rgba(255,255,255,0.95);
+    border-radius: 22px;
+    box-shadow: 0 8px 32px rgba(67, 206, 162, 0.18);
     padding: 2.5rem 2rem 2rem 2rem;
-    max-width: 350px;
+    max-width: 370px;
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    z-index: 2;
+    animation: fadeIn 1.2s cubic-bezier(.39,.575,.56,1) both;
   }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(40px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
 
   #login-form h2 {
     margin-bottom: 1.5rem;
-    color: #1a237e;
-    font-weight: 700;
+    color: #43cea2;
+    font-weight: 800;
     letter-spacing: 1px;
+    font-size: 2rem;
+    text-shadow: 0 2px 8px #fff7, 0 1px 0 #fff;
   }
+
 
   #login-form input[type="email"],
   #login-form input[type="password"] {
     width: 100%;
-    padding: 0.8rem 0.5rem;
-    margin-bottom: 1.2rem;
+    padding: 0.9rem 0.7rem;
+    margin-bottom: 1.3rem;
     border: none;
-    border-bottom: 2px solid #b0bec5;
-    background: transparent;
-    font-size: 1rem;
-    transition: border-color 0.2s;
+    border-radius: 8px;
+    background: #f8ffae;
+    font-size: 1.08rem;
+    color: #222;
+    box-shadow: 0 2px 8px #43cea220;
+    transition: box-shadow 0.2s, background 0.2s;
     outline: none;
   }
 
   #login-form input:focus {
-    border-bottom: 2px solid #1976d2;
+    background: #fff;
+    box-shadow: 0 4px 16px #43cea240;
   }
+
 
   #btn-login {
     width: 100%;
-    padding: 0.9rem;
-    background: linear-gradient(90deg, #1976d2 0%, #00bcd4 100%);
+    padding: 1rem;
+    background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
     color: #fff;
     border: none;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    font-weight: 600;
+    border-radius: 10px;
+    font-size: 1.15rem;
+    font-weight: 700;
     cursor: pointer;
-    transition: background 0.2s, transform 0.1s;
-    box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+    transition: background 0.2s, transform 0.1s, box-shadow 0.2s;
+    box-shadow: 0 2px 12px #43cea230;
+    letter-spacing: 0.5px;
   }
 
   #btn-login:hover {
-    background: linear-gradient(90deg, #1565c0 0%, #0097a7 100%);
-    transform: translateY(-2px) scale(1.03);
+    background: linear-gradient(90deg, #185a9d 0%, #43cea2 100%);
+    transform: translateY(-2px) scale(1.04);
+    box-shadow: 0 4px 18px #43cea250;
   }
+
 
   @media (max-width: 500px) {
     #login-form {
