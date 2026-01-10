@@ -1,13 +1,12 @@
 // app.js
-import { initializeApp } from "firebase/app";
-import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js";
 
-// Configuración de Firebase
 const firebaseConfig = {
   apiKey: "AIzaSyAQJfBPBGFo8IujYZeNK3kr6EiX9xCGvdU",
   authDomain: "sistemaderiego-8950d.firebaseapp.com",
   projectId: "sistemaderiego-8950d",
-  storageBucket: "sistemaderiego-8950d.firebasestorage.app",
+  storageBucket: "sistemaderiego-8950d.appspot.com",
   messagingSenderId: "23168988354",
   appId: "1:23168988354:web:bd1cf85aeec5b0df36f75b"
 };
@@ -15,43 +14,45 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
-// URL del backend
 const API_URL = "https://api.sistemaderiego.online";
 
 const valvesContainer = document.getElementById("valves-container");
 const loginForm = document.getElementById("login-form");
+const loginBtn = document.getElementById("login-btn");
+const loginError = document.getElementById("login-error");
 
-// --- LOGIN ---
-function login(email, password) {
-  console.log("[DEBUG] Intentando login:", email);
-  signInWithEmailAndPassword(auth, email, password)
-    .then(userCredential => {
-      console.log("[DEBUG] Login exitoso:", userCredential.user.email);
-      loginForm.style.display = "none";
-      valvesContainer.style.display = "grid";
-      loadStatus();
-    })
-    .catch(error => {
-      console.error("[ERROR] Login fallido:", error);
-      alert("Login fallido: " + error.message);
-    });
-}
+// --- Login ---
+loginBtn.addEventListener("click", async () => {
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
 
-// Detectar estado de autenticación
-onAuthStateChanged(auth, user => {
-  if (user) {
-    console.log("[DEBUG] Usuario ya logueado:", user.email);
+  loginError.style.display = "none";
+  try {
+    await signInWithEmailAndPassword(auth, email, password);
+    // Oculta login y muestra válvulas
     loginForm.style.display = "none";
-    valvesContainer.style.display = "grid";
+    document.querySelector("main").style.display = "block";
     loadStatus();
-  } else {
-    console.log("[DEBUG] No hay usuario logueado");
-    loginForm.style.display = "block";
-    valvesContainer.style.display = "none";
+  } catch (err) {
+    console.error(err);
+    loginError.textContent = "Error en login: " + err.message;
+    loginError.style.display = "block";
   }
 });
 
-// --- CREAR TARJETAS DE VÁLVULAS ---
+// Mantener sesión iniciada
+onAuthStateChanged(auth, (user) => {
+  if (user) {
+    loginForm.style.display = "none";
+    document.querySelector("main").style.display = "block";
+    loadStatus();
+  } else {
+    loginForm.style.display = "block";
+    document.querySelector("main").style.display = "none";
+  }
+});
+
+// --- Funciones de válvulas ---
 function createValveCard(id, state) {
   const card = document.createElement("div");
   card.classList.add("valve-card");
@@ -61,21 +62,20 @@ function createValveCard(id, state) {
   card.innerHTML = `
     <h2>Válvula ${id}</h2>
     <p>Estado: <span class="state-text">${state ? "ON" : "OFF"}</span></p>
-    <button onclick="toggleValve(${id})">${state ? "Apagar" : "Encender"}</button>
-    <div class="schedule-container">
-      <label>Desde: <input type="time" id="start-${id}"></label>
-      <label>Hasta: <input type="time" id="end-${id}"></label>
-      <button onclick="scheduleValve(${id})">Programar</button>
-    </div>
+    <button class="toggle-btn">${state ? "Apagar" : "Encender"}</button>
+    <input type="number" id="time-${id}" placeholder="Segundos">
+    <button class="schedule-btn">Programar</button>
   `;
 
   valvesContainer.appendChild(card);
+
+  // Eventos
+  card.querySelector(".toggle-btn").addEventListener("click", () => toggleValve(id));
+  card.querySelector(".schedule-btn").addEventListener("click", () => scheduleValve(id));
 }
 
-// --- CARGAR ESTADO INICIAL ---
 async function loadStatus() {
   try {
-    console.log("[DEBUG] Cargando estado de válvulas...");
     const res = await fetch(`${API_URL}/status`);
     if (!res.ok) throw new Error("Error al obtener estado");
     const data = await res.json();
@@ -83,57 +83,34 @@ async function loadStatus() {
     for (let id = 1; id <= 12; id++) {
       createValveCard(id, data[id]);
     }
-    console.log("[DEBUG] Estado cargado:", data);
   } catch (e) {
-    console.error("[ERROR] No se pudo cargar el estado:", e);
+    console.error("No se pudo cargar el estado:", e);
     valvesContainer.innerHTML = "<p style='color:red;'>Error conectando al backend</p>";
   }
 }
 
-// --- ENCENDER / APAGAR ---
 async function toggleValve(id) {
   const card = document.getElementById(`valve-${id}`);
   const state = card.classList.contains("active");
   const endpoint = state ? "off" : "on";
 
-  console.log(`[DEBUG] Toggle válvula ${id} -> ${endpoint}`);
   try {
-    const res = await fetch(`${API_URL}/valve/${id}/${endpoint}`, { method: "POST" });
-    if (!res.ok) throw new Error("Error al cambiar estado");
+    await fetch(`${API_URL}/valve/${id}/${endpoint}`, { method: "POST" });
     loadStatus();
   } catch (e) {
-    console.error(`[ERROR] Toggle válvula ${id} fallido:`, e);
+    console.error("Error toggleValve:", e);
   }
 }
 
-// --- PROGRAMAR VÁLVULA POR HORAS ---
 async function scheduleValve(id) {
-  const start = document.getElementById(`start-${id}`).value;
-  const end = document.getElementById(`end-${id}`).value;
-
-  if (!start || !end) return alert("Ingresa horas válidas");
-  console.log(`[DEBUG] Programando válvula ${id} desde ${start} hasta ${end}`);
+  const seconds = parseInt(document.getElementById(`time-${id}`).value);
+  if (!seconds || seconds <= 0) return alert("Ingresa segundos válidos");
 
   try {
-    const res = await fetch(`${API_URL}/valve/${id}/schedule_hours?start=${start}&end=${end}`, {
-      method: "POST"
-    });
-    if (!res.ok) throw new Error("Error al programar válvula");
-    alert(`Válvula ${id} programada de ${start} a ${end}`);
+    await fetch(`${API_URL}/valve/${id}/schedule?seconds=${seconds}`, { method: "POST" });
+    alert(`Válvula ${id} programada por ${seconds} segundos`);
     loadStatus();
   } catch (e) {
-    console.error(`[ERROR] Programación válvula ${id} fallida:`, e);
-    alert("No se pudo programar la válvula");
+    console.error("Error scheduleValve:", e);
   }
 }
-
-// --- CARGAR AL INICIO ---
-window.onload = () => {
-  console.log("[DEBUG] Página cargada");
-  loadStatus();
-};
-
-window.toggleValve = toggleValve;
-window.scheduleValve = scheduleValve;
-window.login = login;
-
