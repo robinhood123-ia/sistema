@@ -1,0 +1,8 @@
+[build]
+  publish = "frontend"   # Netlify publica esta carpeta
+  command = ""           # no necesita build
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
