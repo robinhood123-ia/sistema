@@ -1,6 +1,6 @@
 /* Panel de válvulas oculto por defecto y grid tras login */
 #valves-container {
-  display: none;
+  display: flex; /* Mostrar por defecto, el JS lo oculta si es necesario */
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   padding: 2rem;
@@ -8,6 +8,8 @@
   max-width: 1100px;
   margin: 0 auto;
   box-sizing: border-box;
+  position: relative;
+  z-index: 2;
 }
 
 .valve-card {
@@ -71,7 +73,7 @@ header {
   flex-direction: column;
   align-items: center;
   position: relative;
-  z-index: 1;
+  z-index: 3;
   animation: fadeIn 1.2s cubic-bezier(.39,.575,.56,1) both;
 }
 
