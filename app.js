@@ -1,41 +1,12 @@
+
 // --- Mostrar contenido interno tras login ---
 function showInternalContent() {
-  // Mostrar válvulas y controles del sistema
   if (valvesContainer) valvesContainer.style.display = "grid";
   const systemControls = document.getElementById("system-controls");
   if (systemControls) systemControls.style.display = "flex";
   setupSystemControls();
 }
-// --- REINICIO DE RASPBERRY ---
 
-const btnReboot = document.getElementById("btn-reboot");
-const btnShutdown = document.getElementById("btn-shutdown");
-const btnPowerOn = document.getElementById("btn-poweron");
-
-// --- Controles del sistema ---
-function setupSystemControls() {
-  const btnReboot = document.getElementById("btn-reboot");
-  const btnShutdown = document.getElementById("btn-shutdown");
-  const btnPowerOn = document.getElementById("btn-poweron");
-
-  if (btnReboot) {
-    btnReboot.addEventListener("click", async () => {
-      if (!confirm("¿Seguro que deseas reiniciar el sistema? Esto tomará unos minutos.")) return;
-      btnReboot.disabled = true;
-      btnReboot.textContent = "Reiniciando...";
-      await updateApiUrl();
-      if (!API_URL) {
-        alert("No se pudo obtener la IP de la Raspberry Pi. Intenta más tarde.");
-        btnReboot.disabled = false;
-        btnReboot.textContent = "Reiniciar sistema";
-        return;
-      }
-      try {
-        const headers = { "Content-Type": "application/json" };
-        if (currentUserToken) headers["Authorization"] = `Bearer ${currentUserToken}`;
-        const res = await fetch(`${API_URL}/reboot`, { method: "POST", headers });
-        if (res.ok) {
-          alert("El sistema se está reiniciando. Espera 3 minutos para efectuar tu programación.");
 console.log("app.js cargado correctamente");
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
 import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js";
