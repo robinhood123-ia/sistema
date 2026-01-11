@@ -3,7 +3,10 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: 'Inter', 'Roboto', Arial, sans-serif;
-  background: linear-gradient(135deg, #f8ffae 0%, #43cea2 100%);
+  background: 
+    linear-gradient(135deg, #f8ffaecc 0%, #43cea2cc 100%),
+    url('sistemairrigacion.jpg') no-repeat center center fixed;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
