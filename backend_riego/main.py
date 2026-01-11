@@ -1,3 +1,14 @@
+# --- Endpoint para obtener la IP pública de la Raspberry Pi ---
+import requests
+
+@app.get("/get-public-ip")
+async def get_public_ip():
+    try:
+        ip = requests.get("https://api.ipify.org").text
+        return {"ip": ip}
+    except Exception as e:
+        log_event(f"Error obteniendo IP pública: {e}")
+        return {"error": "No se pudo obtener la IP pública"}
 import os
 
 # --- Endpoint para reiniciar la Raspberry Pi ---

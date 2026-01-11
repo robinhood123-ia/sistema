@@ -4,77 +4,98 @@ const btnReboot = document.getElementById("btn-reboot");
 const btnShutdown = document.getElementById("btn-shutdown");
 const btnPowerOn = document.getElementById("btn-poweron");
 
-if (btnReboot) {
-  btnReboot.addEventListener("click", async () => {
-    if (!confirm("¿Seguro que deseas reiniciar el sistema? Esto tomará unos minutos.")) return;
-    btnReboot.disabled = true;
-    btnReboot.textContent = "Reiniciando...";
-    try {
-      const headers = { "Content-Type": "application/json" };
-      if (currentUserToken) headers["Authorization"] = `Bearer ${currentUserToken}`;
-      const res = await fetch(`${API_URL}/reboot`, { method: "POST", headers });
-      if (res.ok) {
-        alert("El sistema se está reiniciando. Espera 3 minutos para efectuar tu programación.");
-      } else {
-        alert("No se pudo reiniciar el sistema. Intenta manualmente.");
+  if (btnReboot) {
+    btnReboot.addEventListener("click", async () => {
+      if (!confirm("¿Seguro que deseas reiniciar el sistema? Esto tomará unos minutos.")) return;
+      btnReboot.disabled = true;
+      btnReboot.textContent = "Reiniciando...";
+      await updateApiUrl();
+      if (!API_URL) {
+        alert("No se pudo obtener la IP de la Raspberry Pi. Intenta más tarde.");
+        btnReboot.disabled = false;
+        btnReboot.textContent = "Reiniciar sistema";
+        return;
       }
-    } catch (e) {
-      alert("Error al intentar reiniciar el sistema: " + e.message);
-    }
-    setTimeout(() => {
-      btnReboot.disabled = false;
-      btnReboot.textContent = "Reiniciar sistema";
-    }, 20000);
-  });
-}
+      try {
+        const headers = { "Content-Type": "application/json" };
+        if (currentUserToken) headers["Authorization"] = `Bearer ${currentUserToken}`;
+        const res = await fetch(`${API_URL}/reboot`, { method: "POST", headers });
+        if (res.ok) {
+          alert("El sistema se está reiniciando. Espera 3 minutos para efectuar tu programación.");
+        } else {
+          alert("No se pudo reiniciar el sistema. Intenta manualmente.");
+        }
+      } catch (e) {
+        alert("Error al intentar reiniciar el sistema: " + e.message);
+      }
+      setTimeout(() => {
+        btnReboot.disabled = false;
+        btnReboot.textContent = "Reiniciar sistema";
+      }, 20000);
+    });
+  }
 
-if (btnShutdown) {
-  btnShutdown.addEventListener("click", async () => {
-    if (!confirm("¿Seguro que deseas apagar el sistema?")) return;
-    btnShutdown.disabled = true;
-    btnShutdown.textContent = "Apagando...";
-    try {
-      const headers = { "Content-Type": "application/json" };
-      if (currentUserToken) headers["Authorization"] = `Bearer ${currentUserToken}`;
-      const res = await fetch(`${API_URL}/shutdown`, { method: "POST", headers });
-      if (res.ok) {
-        alert("El sistema se está apagando. Para volver a encenderlo, hazlo manualmente o usa el botón 'Encender sistema' si está disponible.");
-      } else {
-        alert("No se pudo apagar el sistema. Intenta manualmente.");
+  if (btnShutdown) {
+    btnShutdown.addEventListener("click", async () => {
+      if (!confirm("¿Seguro que deseas apagar el sistema?")) return;
+      btnShutdown.disabled = true;
+      btnShutdown.textContent = "Apagando...";
+      await updateApiUrl();
+      if (!API_URL) {
+        alert("No se pudo obtener la IP de la Raspberry Pi. Intenta más tarde.");
+        btnShutdown.disabled = false;
+        btnShutdown.textContent = "Apagar sistema";
+        return;
       }
-    } catch (e) {
-      alert("Error al intentar apagar el sistema: " + e.message);
-    }
-    setTimeout(() => {
-      btnShutdown.disabled = false;
-      btnShutdown.textContent = "Apagar sistema";
-    }, 20000);
-  });
-}
+      try {
+        const headers = { "Content-Type": "application/json" };
+        if (currentUserToken) headers["Authorization"] = `Bearer ${currentUserToken}`;
+        const res = await fetch(`${API_URL}/shutdown`, { method: "POST", headers });
+        if (res.ok) {
+          alert("El sistema se está apagando. Para volver a encenderlo, hazlo manualmente o usa el botón 'Encender sistema' si está disponible.");
+        } else {
+          alert("No se pudo apagar el sistema. Intenta manualmente.");
+        }
+      } catch (e) {
+        alert("Error al intentar apagar el sistema: " + e.message);
+      }
+      setTimeout(() => {
+        btnShutdown.disabled = false;
+        btnShutdown.textContent = "Apagar sistema";
+      }, 20000);
+    });
+  }
 
-if (btnPowerOn) {
-  btnPowerOn.addEventListener("click", async () => {
-    if (!confirm("¿Seguro que deseas encender el sistema? (Solo funciona si hay hardware de encendido remoto)")) return;
-    btnPowerOn.disabled = true;
-    btnPowerOn.textContent = "Encendiendo...";
-    try {
-      const headers = { "Content-Type": "application/json" };
-      if (currentUserToken) headers["Authorization"] = `Bearer ${currentUserToken}`;
-      const res = await fetch(`${API_URL}/poweron`, { method: "POST", headers });
-      if (res.ok) {
-        alert("El sistema se está encendiendo (si el hardware lo permite).");
-      } else {
-        alert("No se pudo encender el sistema. Intenta manualmente.");
+  if (btnPowerOn) {
+    btnPowerOn.addEventListener("click", async () => {
+      if (!confirm("¿Seguro que deseas encender el sistema? (Solo funciona si hay hardware de encendido remoto)")) return;
+      btnPowerOn.disabled = true;
+      btnPowerOn.textContent = "Encendiendo...";
+      await updateApiUrl();
+      if (!API_URL) {
+        alert("No se pudo obtener la IP de la Raspberry Pi. Intenta más tarde.");
+        btnPowerOn.disabled = false;
+        btnPowerOn.textContent = "Encender sistema";
+        return;
       }
-    } catch (e) {
-      alert("Error al intentar encender el sistema: " + e.message);
-    }
-    setTimeout(() => {
-      btnPowerOn.disabled = false;
-      btnPowerOn.textContent = "Encender sistema";
-    }, 20000);
-  });
-}
+      try {
+        const headers = { "Content-Type": "application/json" };
+        if (currentUserToken) headers["Authorization"] = `Bearer ${currentUserToken}`;
+        const res = await fetch(`${API_URL}/poweron`, { method: "POST", headers });
+        if (res.ok) {
+          alert("El sistema se está encendiendo (si el hardware lo permite).");
+        } else {
+          alert("No se pudo encender el sistema. Intenta manualmente.");
+        }
+      } catch (e) {
+        alert("Error al intentar encender el sistema: " + e.message);
+      }
+      setTimeout(() => {
+        btnPowerOn.disabled = false;
+        btnPowerOn.textContent = "Encender sistema";
+      }, 20000);
+    });
+  }
 // app.js
 console.log("app.js cargado correctamente");
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
@@ -105,7 +126,7 @@ function login(email, password) {
     .then(async (userCredential) => {
       console.log("Login exitoso:", userCredential.user);
       loginForm.style.display = "none"; // Ocultar login
-      valvesContainer.style.display = "grid"; // Mostrar válvulas
+      showInternalContent();
       // Obtener el token de Firebase
       currentUserToken = await userCredential.user.getIdToken();
       loadStatus(); // Cargar estado inicial
@@ -128,7 +149,31 @@ btnLogin.addEventListener("click", () => {
 });
 
 // --- FUNCIONES DE VÁLVULAS ---
-const API_URL = "https://api.sistemaderiego.online";
+// Endpoint de la Raspberry Pi para obtener su IP pública
+const RASPBERRY_API_URL = "http://localhost:8000/get-public-ip";
+let API_URL = "http://localhost:8000";
+
+async function updateApiUrl() {
+  if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") {
+    API_URL = "http://localhost:8000";
+  } else {
+    try {
+      // Suponiendo que el frontend ya se comunica con la Raspberry Pi
+      const res = await fetch(RASPBERRY_API_URL);
+      const data = await res.json();
+      if (data.ip) {
+        API_URL = `http://${data.ip}:8000`;
+      } else {
+        API_URL = "";
+      }
+    } catch {
+      API_URL = "";
+    }
+  }
+}
+
+// Llamar updateApiUrl al cargar la página y antes de usar los botones
+updateApiUrl();
 
 function createValveCard(id, state) {
   const card = document.createElement("div");
@@ -198,54 +243,91 @@ async function scheduleValve(id) {
   const startDate = document.getElementById(`start-date-${id}`).value;
   const startTime = document.getElementById(`start-${id}`).value;
   const endDate = document.getElementById(`end-date-${id}`).value;
-  const endTime = document.getElementById(`end-${id}`).value;
-  if (!startDate || !startTime || !endDate || !endTime) return alert("Debes ingresar fecha y hora de inicio y fin");
 
-  // Unir fecha y hora en formato ISO
-  const start = `${startDate}T${startTime}`;
-  const end = `${endDate}T${endTime}`;
+  function setupSystemControls() {
+    const btnReboot = document.getElementById("btn-reboot");
+    const btnShutdown = document.getElementById("btn-shutdown");
+    const btnPowerOn = document.getElementById("btn-poweron");
 
-  try {
-    console.log(`Programando válvula ${id} de ${start} a ${end}`);
-    const headers = {
-      "Content-Type": "application/json"
-    };
-    if (currentUserToken) headers["Authorization"] = `Bearer ${currentUserToken}`;
-    // Por ahora seguimos usando el endpoint actual, luego se adaptará el backend
-    const response = await fetch(`${API_URL}/valve/${id}/schedule_hours`, {
-      method: "POST",
-      headers,
-      body: JSON.stringify({ start, end })
-    });
-    if (!response.ok) {
-      let errorMsg = `Error ${response.status}`;
-      try {
-        const errorData = await response.json();
-        if (errorData.detail) {
-          if (Array.isArray(errorData.detail)) {
-            errorMsg += ":\n" + errorData.detail.map(e => (e.msg ? e.msg : JSON.stringify(e))).join("\n");
+    if (btnReboot) {
+      btnReboot.addEventListener("click", async () => {
+        if (!confirm("¿Seguro que deseas reiniciar el sistema? Esto tomará unos minutos.")) return;
+        btnReboot.disabled = true;
+        btnReboot.textContent = "Reiniciando...";
+        try {
+          const headers = { "Content-Type": "application/json" };
+          if (currentUserToken) headers["Authorization"] = `Bearer ${currentUserToken}`;
+          const res = await fetch(`${API_URL}/reboot`, { method: "POST", headers });
+          if (res.ok) {
+            alert("El sistema se está reiniciando. Espera 3 minutos para efectuar tu programación.");
           } else {
-            errorMsg += ": " + errorData.detail;
+            alert("No se pudo reiniciar el sistema. Intenta manualmente.");
           }
-        } else {
-          errorMsg += ": " + JSON.stringify(errorData);
+        } catch (e) {
+          alert("Error al intentar reiniciar el sistema: " + e.message);
         }
-      } catch (err) {
-        errorMsg += ": No se pudo leer el mensaje de error del backend.";
-      }
-      alert(`No se pudo programar la válvula: ${errorMsg}`);
-      console.error("Error al programar válvula:", errorMsg);
-      return;
+        setTimeout(() => {
+          btnReboot.disabled = false;
+          btnReboot.textContent = "Reiniciar sistema";
+        }, 20000);
+      });
     }
-    alert(`Válvula ${id} programada de ${start} a ${end}`);
-    loadStatus();
-  } catch (e) {
-    console.error("Error al programar válvula:", e);
-    alert("Error inesperado al programar válvula: " + e.message);
-  }
-}
 
-// Exponer funciones globalmente si es necesario
-window.toggleValve = toggleValve;
-window.scheduleValve = scheduleValve;
+    if (btnShutdown) {
+      btnShutdown.addEventListener("click", async () => {
+        if (!confirm("¿Seguro que deseas apagar el sistema?")) return;
+        btnShutdown.disabled = true;
+        btnShutdown.textContent = "Apagando...";
+        try {
+          const headers = { "Content-Type": "application/json" };
+          if (currentUserToken) headers["Authorization"] = `Bearer ${currentUserToken}`;
+          const res = await fetch(`${API_URL}/shutdown`, { method: "POST", headers });
+          if (res.ok) {
+            alert("El sistema se está apagando. Para volver a encenderlo, hazlo manualmente o usa el botón 'Encender sistema' si está disponible.");
+          } else {
+            alert("No se pudo apagar el sistema. Intenta manualmente.");
+          }
+        } catch (e) {
+          alert("Error al intentar apagar el sistema: " + e.message);
+        }
+        setTimeout(() => {
+          btnShutdown.disabled = false;
+          btnShutdown.textContent = "Apagar sistema";
+        }, 20000);
+      });
+    }
+
+    if (btnPowerOn) {
+      btnPowerOn.addEventListener("click", async () => {
+        if (!confirm("¿Seguro que deseas encender el sistema? (Solo funciona si hay hardware de encendido remoto)")) return;
+        btnPowerOn.disabled = true;
+        btnPowerOn.textContent = "Encendiendo...";
+        try {
+          const headers = { "Content-Type": "application/json" };
+          if (currentUserToken) headers["Authorization"] = `Bearer ${currentUserToken}`;
+          const res = await fetch(`${API_URL}/poweron`, { method: "POST", headers });
+          if (res.ok) {
+            alert("El sistema se está encendiendo (si el hardware lo permite).");
+          } else {
+            alert("No se pudo encender el sistema. Intenta manualmente.");
+          }
+        } catch (e) {
+          alert("Error al intentar encender el sistema: " + e.message);
+        }
+        setTimeout(() => {
+          btnPowerOn.disabled = false;
+          btnPowerOn.textContent = "Encender sistema";
+        }, 20000);
+      });
+    }
+  }
+
+  // Inicializar controles del sistema solo después del login
+  function showInternalContent() {
+    // ...lógica existente para mostrar válvulas y datos internos...
+    setupSystemControls();
+  }
+
+  // Busca el lugar donde se llama a la función que muestra el contenido interno tras login exitoso
+  // Reemplaza la llamada existente por showInternalContent()
 
