@@ -21,13 +21,16 @@ const loginForm = document.getElementById("login-form");
 const btnLogin = document.getElementById("btn-login");
 
 // FUNCION LOGIN
+let currentUserToken = null;
 function login(email, password) {
   console.log("Intentando login con:", email, password);
   signInWithEmailAndPassword(auth, email, password)
-    .then((userCredential) => {
+    .then(async (userCredential) => {
       console.log("Login exitoso:", userCredential.user);
       loginForm.style.display = "none"; // Ocultar login
       valvesContainer.style.display = "grid"; // Mostrar válvulas
+      // Obtener el token de Firebase
+      currentUserToken = await userCredential.user.getIdToken();
       loadStatus(); // Cargar estado inicial
     })
     .catch((error) => {
@@ -70,7 +73,8 @@ function createValveCard(id, state) {
 async function loadStatus() {
   try {
     console.log("Cargando estado de válvulas...");
-    const res = await fetch(`${API_URL}/status`);
+    const headers = currentUserToken ? { "Authorization": `Bearer ${currentUserToken}` } : {};
+    const res = await fetch(`${API_URL}/status`, { headers });
     if (!res.ok) throw new Error("Error al obtener estado");
     const data = await res.json();
     valvesContainer.innerHTML = "";
@@ -91,8 +95,10 @@ async function toggleValve(id) {
 
   try {
     console.log(`Enviando request a válvula ${id}: ${endpoint}`);
+    const headers = currentUserToken ? { "Authorization": `Bearer ${currentUserToken}` } : {};
     await fetch(`${API_URL}/valve/${id}/${endpoint}`, {
-      method: "POST"
+      method: "POST",
+      headers
     });
     loadStatus();
   } catch (e) {
@@ -108,9 +114,13 @@ async function scheduleValve(id) {
 
   try {
     console.log(`Programando válvula ${id} de ${start} a ${end}`);
+    const headers = {
+      "Content-Type": "application/json"
+    };
+    if (currentUserToken) headers["Authorization"] = `Bearer ${currentUserToken}`;
     await fetch(`${API_URL}/valve/${id}/schedule`, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers,
       body: JSON.stringify({ horaInicio: start, horaFin: end })
     });
     alert(`Válvula ${id} programada de ${start} a ${end}`);
