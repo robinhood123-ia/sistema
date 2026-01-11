@@ -32,6 +32,10 @@ function login(email, password) {
       // Obtener el token de Firebase
       currentUserToken = await userCredential.user.getIdToken();
       loadStatus(); // Cargar estado inicial
+      // Iniciar refresco automático del estado cada 30 segundos
+      if (!window._valveStatusInterval) {
+        window._valveStatusInterval = setInterval(loadStatus, 30000);
+      }
     })
     .catch((error) => {
       console.error("Error en login:", error.code, error.message);
