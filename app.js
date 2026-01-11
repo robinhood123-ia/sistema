@@ -118,16 +118,16 @@ async function scheduleValve(id) {
       "Content-Type": "application/json"
     };
     if (currentUserToken) headers["Authorization"] = `Bearer ${currentUserToken}`;
-    const response = await fetch(`${API_URL}/valve/${id}/schedule`, {
+    const response = await fetch(`${API_URL}/valve/${id}/schedule_hours`, {
       method: "POST",
       headers,
-      body: JSON.stringify({ horaInicio: start, horaFin: end })
+      body: JSON.stringify({ start, end })
     });
     if (!response.ok) {
       let errorMsg = `Error ${response.status}`;
       try {
         const errorData = await response.json();
-        errorMsg += ": " + (errorData.message || JSON.stringify(errorData));
+        errorMsg += ": " + (errorData.detail || JSON.stringify(errorData));
       } catch {}
       alert(`No se pudo programar la válvula: ${errorMsg}`);
       console.error("Error al programar válvula:", errorMsg);
