@@ -17,11 +17,11 @@ body::before {
   top: 0; left: 0; right: 0; bottom: 0;
   z-index: 0;
   background:
-    linear-gradient(135deg, #f8ffaecc 0%, #43cea2cc 100%),
-    linear-gradient(rgba(30,40,60,0.25), rgba(30,40,60,0.35)),
+    linear-gradient(135deg, #f8ffae99 0%, #43cea299 100%),
+    linear-gradient(rgba(30,40,60,0.13), rgba(30,40,60,0.18)),
     url('sistemairrigacion.jpg') no-repeat center center fixed;
   background-size: cover;
-  filter: blur(2.5px) brightness(0.93);
+  filter: blur(1.2px) brightness(0.97);
 }
 
 header {
