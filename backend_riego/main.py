@@ -65,6 +65,7 @@ class ScheduleRequest(BaseModel):
 
 @app.post("/valve/{valve_id}/schedule_hours")
 async def valve_schedule_hours(valve_id: int, req: ScheduleRequest):
+    log_event(f"DEBUG BODY: {req}")
     """
     start y end en formato ISO: YYYY-MM-DDTHH:MM
     """
