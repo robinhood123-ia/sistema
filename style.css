@@ -12,18 +12,126 @@
   z-index: 2;
 }
 
+
 .valve-card {
-  background: rgba(255,255,255,0.92);
-  border: 2px solid #43cea2;
-  border-radius: 15px;
-  padding: 1rem;
+  background: rgba(255,255,255,0.98);
+  border: none;
+  border-radius: 22px;
+  padding: 2.2rem 1.2rem 1.5rem 1.2rem;
   text-align: center;
-  box-shadow: 0 2px 12px #43cea220;
-  transition: box-shadow 0.2s, border 0.2s;
+  box-shadow: 0 8px 32px 0 rgba(30,40,60,0.13), 0 1.5px 8px 0 rgba(67,206,162,0.10);
+  transition: box-shadow 0.2s, border 0.2s, transform 0.15s;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 220px;
 }
 .valve-card.active {
-  border-color: #185a9d;
-  box-shadow: 0 4px 18px #185a9d33;
+  box-shadow: 0 8px 32px 0 #43cea250, 0 1.5px 8px 0 #185a9d33;
+  border: 2.5px solid #43cea2;
+  transform: scale(1.03);
+}
+.valve-card h2 {
+  color: #185a9d;
+  font-size: 2.1rem;
+  font-weight: 800;
+  margin-bottom: 0.7rem;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px #fff7, 0 1px 0 #fff;
+}
+.valve-card p {
+  font-size: 1.15rem;
+  color: #43cea2;
+  margin-bottom: 1.1rem;
+  font-weight: 600;
+}
+.valve-card .state-text {
+  font-weight: bold;
+  color: #185a9d;
+}
+.valve-card button {
+  background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.2rem;
+  font-size: 1.08rem;
+  font-weight: 700;
+  margin: 0.3rem 0;
+  box-shadow: 0 2px 8px #43cea220;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s, box-shadow 0.2s;
+}
+.valve-card button:hover {
+  background: linear-gradient(90deg, #185a9d 0%, #43cea2 100%);
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 4px 18px #43cea250;
+}
+.valve-card label {
+  font-size: 1rem;
+  color: #185a9d;
+  margin: 0 0.2rem;
+  font-weight: 600;
+}
+.valve-card input[type="time"] {
+  border: 1.5px solid #43cea2;
+  border-radius: 6px;
+  padding: 0.3rem 0.5rem;
+  font-size: 1rem;
+  margin: 0 0.2rem;
+  background: #f8ffae;
+  color: #185a9d;
+  outline: none;
+  transition: border 0.2s;
+}
+.valve-card input[type="time"]:focus {
+  border: 2px solid #185a9d;
+  background: #fff;
+}
+
+/* Responsive grid para las válvulas */
+#valves-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2.2rem;
+  padding: 2.5rem 1rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 900px) {
+  #valves-container {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.2rem;
+    padding: 1.5rem 0.5rem;
+  }
+  .valve-card {
+    min-width: 0;
+    padding: 1.5rem 0.7rem 1.1rem 0.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #valves-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem 0.2rem;
+  }
+  .valve-card {
+    padding: 1.1rem 0.3rem 0.7rem 0.3rem;
+    border-radius: 14px;
+    font-size: 0.98rem;
+  }
+  .valve-card h2 {
+    font-size: 1.3rem;
+  }
 }
 /* Ocultar panel de válvulas por defecto */
 #valves-container {
