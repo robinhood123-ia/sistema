@@ -46,6 +46,7 @@ app = FastAPI(title="Sistema de Riego")
 # --- CORS ---
 origins = [
     "https://sistemaderiego.online",  # Frontend Netlify
+    "https://api.sistemaderiego.online",  # Backend via Cloudflare Tunnel
     "http://localhost:3000"            # Pruebas locales
 ]
 

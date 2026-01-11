@@ -79,7 +79,7 @@ btnLogin.addEventListener("click", () => {
 
 // --- FUNCIONES DE VÁLVULAS ---
 // Endpoint de la Raspberry Pi para obtener su IP pública
-const RASPBERRY_API_URL = "http://sistemaderiego.online:8000/get-public-ip";
+const RASPBERRY_API_URL = "https://api.sistemaderiego.online/get-public-ip";
 
 let API_URL = "http://localhost:8000";
 
@@ -87,8 +87,8 @@ async function updateApiUrl() {
   if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") {
     API_URL = "http://localhost:8000";
   } else {
-    // Para producción, usar HTTPS para evitar Mixed Content
-    API_URL = "https://sistemaderiego.online:8000";
+    // Para producción, usar HTTPS via Cloudflare Tunnel
+    API_URL = "https://api.sistemaderiego.online";
   }
 }
 
