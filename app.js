@@ -1,4 +1,3 @@
-}
 // --- Mostrar contenido interno tras login ---
 function showInternalContent() {
   // Mostrar válvulas y controles del sistema
@@ -12,6 +11,12 @@ function showInternalContent() {
 const btnReboot = document.getElementById("btn-reboot");
 const btnShutdown = document.getElementById("btn-shutdown");
 const btnPowerOn = document.getElementById("btn-poweron");
+
+// --- Controles del sistema ---
+function setupSystemControls() {
+  const btnReboot = document.getElementById("btn-reboot");
+  const btnShutdown = document.getElementById("btn-shutdown");
+  const btnPowerOn = document.getElementById("btn-poweron");
 
   if (btnReboot) {
     btnReboot.addEventListener("click", async () => {
@@ -105,6 +110,8 @@ const btnPowerOn = document.getElementById("btn-poweron");
       }, 20000);
     });
   }
+}
+
 // app.js
 console.log("app.js cargado correctamente");
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
