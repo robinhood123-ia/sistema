@@ -34,30 +34,43 @@ def schedule_valve(valve_id: int, seconds: int):
 def schedule_valve_hours(valve_id: int, start: datetime, end: datetime):
     """
     Programa la válvula para encender automáticamente solo entre la fecha y hora de inicio y fin exactas.
-    Funciona en background usando un thread que revisa cada minuto.
+    Funciona en background usando un thread que espera hasta la hora de inicio y luego controla la válvula.
     """
     def hour_task():
-        log_event(f"[Fecha/Hora] Hilo iniciado para válvula {valve_id}: {start} -> {end}")
-        encendida = False
-        while True:
-            now = datetime.now()
-            if start <= now <= end:
-                if not encendida:
-                    log_event(f"[Fecha/Hora] Válvula {valve_id} ENCENDIDA (dentro del rango)")
-                    turn_on(valve_id)
-                    encendida = True
-            else:
-                if encendida:
-                    log_event(f"[Fecha/Hora] Válvula {valve_id} APAGADA (fuera del rango)")
-                    turn_off(valve_id)
-                    encendida = False
-            t.sleep(60)  # revisa cada minuto
+        now = datetime.now()
+        log_event(f"[Fecha/Hora] Programando válvula {valve_id}: {start} -> {end} (ahora: {now})")
+
+        # Si la hora de inicio es futura, esperar hasta entonces
+        if start > now:
+            wait_seconds = (start - now).total_seconds()
+            log_event(f"[Fecha/Hora] Esperando {wait_seconds:.0f} segundos hasta el inicio")
+            t.sleep(wait_seconds)
+
+        # Verificar nuevamente después de esperar
+        now = datetime.now()
+        if start <= now <= end:
+            log_event(f"[Fecha/Hora] Válvula {valve_id} ENCENDIDA (inicio del rango)")
+            turn_on(valve_id)
+
+            # Calcular cuánto tiempo mantener encendida
+            remaining_seconds = (end - now).total_seconds()
+            if remaining_seconds > 0:
+                log_event(f"[Fecha/Hora] Manteniendo encendida por {remaining_seconds:.0f} segundos")
+                t.sleep(remaining_seconds)
+
+            # Apagar al final del rango
+            log_event(f"[Fecha/Hora] Válvula {valve_id} APAGADA (fin del rango)")
+            turn_off(valve_id)
+        else:
+            log_event(f"[Fecha/Hora] Rango de tiempo expirado o inválido para válvula {valve_id}")
 
     # Cancelar tarea previa si existe
     if valve_id in scheduled_hour_tasks:
         log_event(f"[Fecha/Hora] Cancelando tarea previa de la válvula {valve_id}")
+        # No podemos cancelar threads daemon fácilmente, pero podemos marcar como None
         scheduled_hour_tasks[valve_id] = None
 
     thread = threading.Thread(target=hour_task, daemon=True)
     thread.start()
     scheduled_hour_tasks[valve_id] = thread
+    log_event(f"[Fecha/Hora] Thread iniciado para válvula {valve_id}")
