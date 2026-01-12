@@ -50,14 +50,6 @@ class ScheduleRequest(BaseModel):
 # =========================
 # ENDPOINTS GENERALES
 # =========================
-@app.get("/status")
-async def status():
-    log_event("GET /status solicitado")
-    status_data = get_status()
-    log_event(f"Estado actual: {status_data}")
-    return status_data
-
-
 @app.get("/get-public-ip")
 async def get_public_ip():
     try:
@@ -72,12 +64,12 @@ async def get_public_ip():
 # ESTADO DEL SISTEMA
 # =========================
 @app.get("/status")
-async def get_status():
+async def status():
     """Obtener el estado actual de todas las válvulas"""
     log_event("GET /status solicitado")
-    status = get_status()
-    log_event(f"Estado de válvulas: {status}")
-    return status
+    status_data = get_status()
+    log_event(f"Estado de válvulas: {status_data}")
+    return {str(k): v for k, v in status_data.items()}
 
 
 # =========================

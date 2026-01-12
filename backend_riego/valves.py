@@ -40,6 +40,9 @@ else:
 
     GPIO = MockGPIO
 
+# Estado de las válvulas para simulación
+valve_states = {}
+
 # Asignación de GPIO y pin físico para cada válvula:
 # 1: GPIO17 (Pin 11), 2: GPIO18 (Pin 12), 3: GPIO27 (Pin 13), 4: GPIO22 (Pin 15)
 # 5: GPIO23 (Pin 16), 6: GPIO24 (Pin 18), 7: GPIO25 (Pin 22), 8: GPIO5 (Pin 29)
