@@ -2,8 +2,8 @@
 import threading
 import time as t
 from datetime import datetime, time as dtime
-from valves import turn_on, turn_off
-from logger import log_event
+from backend_riego.valves import turn_on, turn_off
+from backend_riego.logger import log_event
 
 # Diccionarios para almacenar tareas activas
 scheduled_tasks = {}

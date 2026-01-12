@@ -1,5 +1,5 @@
 import RPi.GPIO as GPIO
-from logger import log_event
+from backend_riego.logger import log_event
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
