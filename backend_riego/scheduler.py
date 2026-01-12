@@ -48,12 +48,14 @@ def schedule_valve_hours(valve_id: int, start: datetime, end: datetime):
 
         # Verificar nuevamente después de esperar
         now = datetime.now()
+        log_event(f"[Fecha/Hora] Después de esperar, ahora: {now}, start: {start}, end: {end}")
         if start <= now <= end:
             log_event(f"[Fecha/Hora] Válvula {valve_id} ENCENDIDA (inicio del rango)")
             turn_on(valve_id)
 
             # Calcular cuánto tiempo mantener encendida
             remaining_seconds = (end - now).total_seconds()
+            log_event(f"[Fecha/Hora] Tiempo restante: {remaining_seconds:.0f} segundos")
             if remaining_seconds > 0:
                 log_event(f"[Fecha/Hora] Manteniendo encendida por {remaining_seconds:.0f} segundos")
                 t.sleep(remaining_seconds)
@@ -62,7 +64,7 @@ def schedule_valve_hours(valve_id: int, start: datetime, end: datetime):
             log_event(f"[Fecha/Hora] Válvula {valve_id} APAGADA (fin del rango)")
             turn_off(valve_id)
         else:
-            log_event(f"[Fecha/Hora] Rango de tiempo expirado o inválido para válvula {valve_id}")
+            log_event(f"[Fecha/Hora] Rango de tiempo expirado o inválido para válvula {valve_id}: start <= now <= end? {start <= now <= end}, now > end? {now > end}")
 
     # Cancelar tarea previa si existe
     if valve_id in scheduled_hour_tasks:

@@ -135,6 +135,16 @@ async def valve_schedule_hours(valve_id: int, req: ScheduleRequest = Body(...)):
             detail="Formato inválido. Use YYYY-MM-DDTHH:MM o YYYY-MM-DDTHH:MM:SS"
         )
 
+    # Validate that start time is in the future
+    now = datetime.now()
+    if start_dt <= now:
+        log_event(f"Hora de inicio inválida (pasada): {req.start} -> {start_dt}, ahora: {now}")
+        raise HTTPException(
+            status_code=400,
+            detail="La hora de inicio debe ser en el futuro"
+        )
+
+    log_event(f"Programando válvula {valve_id} de {start_dt} a {end_dt} (ahora: {now})")
     schedule_valve_hours(valve_id, start_dt, end_dt)
 
     log_event(
