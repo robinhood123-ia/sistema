@@ -103,7 +103,7 @@ function createValveCard(id, state) {
   card.innerHTML = `
     <h2>Válvula ${id}</h2>
     <p>Estado: <span class="state-text">${state ? "ON" : "OFF"}</span></p>
-    <button onclick="toggleValve(${id})">${state ? "Apagar" : "Encender"}</button>
+    <button class="toggle-btn">${state ? "Apagar" : "Encender"}</button>
     <div style="margin-top:8px; display: flex; flex-direction: column; gap: 0.5rem; align-items: center;">
       <div>
         <label>Fecha inicio: <input type="date" id="start-date-${id}"></label>
@@ -113,9 +113,16 @@ function createValveCard(id, state) {
         <label>Fecha fin: <input type="date" id="end-date-${id}"></label>
         <label>Hora fin: <input type="time" id="end-${id}"></label>
       </div>
-      <button onclick="scheduleValve(${id})">Programar</button>
+      <button class="schedule-btn">Programar</button>
     </div>
   `;
+
+  // Add event listeners
+  const toggleBtn = card.querySelector('.toggle-btn');
+  toggleBtn.addEventListener('click', () => toggleValve(id));
+
+  const scheduleBtn = card.querySelector('.schedule-btn');
+  scheduleBtn.addEventListener('click', () => scheduleValve(id));
 
   valvesContainer.appendChild(card);
 }

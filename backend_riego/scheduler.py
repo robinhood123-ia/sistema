@@ -1,7 +1,7 @@
 # scheduler.py
 import threading
 import time as t
-from datetime import datetime, time as dtime
+from datetime import datetime
 from backend_riego.valves import turn_on, turn_off
 from backend_riego.logger import log_event
 
@@ -31,7 +31,7 @@ def schedule_valve(valve_id: int, seconds: int):
 
 # --- Programación por horas ---
 
-def schedule_valve_hours(valve_id: int, start: dtime, end: dtime):
+def schedule_valve_hours(valve_id: int, start: datetime, end: datetime):
     """
     Programa la válvula para encender automáticamente solo entre la fecha y hora de inicio y fin exactas.
     Funciona en background usando un thread que revisa cada minuto.

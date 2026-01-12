@@ -1,10 +1,43 @@
 #!/usr/bin/env python3
 # Monitorea el log y controla las 12 válvulas según los logs
 
-import RPi.GPIO as GPIO
+import platform
 import time
 from pathlib import Path
 import re
+
+# Check if running on Raspberry Pi
+IS_RASPBERRY_PI = platform.system() == 'Linux' and 'raspberrypi' in platform.uname().release.lower()
+
+if IS_RASPBERRY_PI:
+    import RPi.GPIO as GPIO
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setwarnings(False)
+else:
+    # Mock GPIO for development on other platforms
+    class MockGPIO:
+        BCM = 'BCM'
+        OUT = 'OUT'
+        HIGH = 1
+        LOW = 0
+
+        @staticmethod
+        def setmode(mode):
+            pass
+
+        @staticmethod
+        def setwarnings(flag):
+            pass
+
+        @staticmethod
+        def setup(pin, direction):
+            pass
+
+        @staticmethod
+        def output(pin, state):
+            print(f"MOCK: GPIO pin {pin} set to {state}")
+
+    GPIO = MockGPIO
 
 # Asignación de GPIO y pin físico para cada válvula:
 # 1: GPIO17 (Pin 11), 2: GPIO18 (Pin 12), 3: GPIO27 (Pin 13), 4: GPIO22 (Pin 15)
@@ -14,10 +47,12 @@ VALVES = {
     1: 17, 2: 18, 3: 27, 4: 22, 5: 23, 6: 24,
     7: 25, 8: 5, 9: 6, 10: 12, 11: 13, 12: 19
 }
-GPIO.setmode(GPIO.BCM)
-GPIO.setwarnings(False)
-for pin in VALVES.values():
-    GPIO.setup(pin, GPIO.OUT)
+
+if IS_RASPBERRY_PI:
+    for pin in VALVES.values():
+        GPIO.setup(pin, GPIO.OUT)
+else:
+    print("MOCK: GPIO pins initialized for development")
 
 LOG_FILE = Path("/home/robinson/sistemafinal/logs/backend.log")
 

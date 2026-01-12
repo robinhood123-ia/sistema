@@ -106,13 +106,21 @@ async def valve_schedule_hours(valve_id: int, req: ScheduleRequest = Body(...)):
     log_event(f"DEBUG BODY: {req}")
 
     try:
-        start_dt = datetime.strptime(req.start, "%Y-%m-%dT%H:%M")
-        end_dt = datetime.strptime(req.end, "%Y-%m-%dT%H:%M")
+        # Try parsing with seconds first, then without
+        try:
+            start_dt = datetime.strptime(req.start, "%Y-%m-%dT%H:%M:%S")
+        except ValueError:
+            start_dt = datetime.strptime(req.start, "%Y-%m-%dT%H:%M")
+        
+        try:
+            end_dt = datetime.strptime(req.end, "%Y-%m-%dT%H:%M:%S")
+        except ValueError:
+            end_dt = datetime.strptime(req.end, "%Y-%m-%dT%H:%M")
     except ValueError:
         log_event(f"Formato inválido: {req.start} - {req.end}")
         raise HTTPException(
             status_code=400,
-            detail="Formato inválido. Use YYYY-MM-DDTHH:MM"
+            detail="Formato inválido. Use YYYY-MM-DDTHH:MM o YYYY-MM-DDTHH:MM:SS"
         )
 
     schedule_valve_hours(valve_id, start_dt, end_dt)
