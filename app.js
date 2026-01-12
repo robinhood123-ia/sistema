@@ -1,4 +1,3 @@
-
 // --- Mostrar contenido interno tras login ---
 function showInternalContent() {
   if (valvesContainer) valvesContainer.style.display = "grid";
@@ -158,8 +157,16 @@ async function scheduleValve(id) {
     return;
   }
 
-  const start = `${startDate}T${startTime}`;
-  const end = `${endDate}T${endTime}`;
+  // Convertir a UTC para evitar problemas de zona horaria
+  function toUTCString(date, time) {
+    const [year, month, day] = date.split('-');
+    const [hour, minute] = time.split(':');
+    const d = new Date(Date.UTC(year, month - 1, day, hour, minute));
+    return d.toISOString().slice(0, 16); // YYYY-MM-DDTHH:MM
+  }
+
+  const start = toUTCString(startDate, startTime);
+  const end = toUTCString(endDate, endTime);
 
   try {
     const headers = currentUserToken ? { "Authorization": `Bearer ${currentUserToken}` } : {};
@@ -177,7 +184,11 @@ async function scheduleValve(id) {
       loadStatus();
     } else {
       const error = await res.text();
-      alert(`Error al programar: ${error}`);
+      if (error.includes("La hora de inicio debe ser en el futuro")) {
+        alert("La hora de inicio debe ser al menos 1 minuto en el futuro respecto a la hora del servidor. Verifica tu zona horaria.");
+      } else {
+        alert(`Error al programar: ${error}`);
+      }
     }
   } catch (e) {
     console.error("Error al programar válvula:", e);
