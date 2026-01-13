@@ -297,3 +297,14 @@ function setupSystemControls() {
 }
 
 
+
+// Registrar service worker para activar funcionalidad PWA
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then(reg => console.log('Service Worker registrado con scope:', reg.scope))
+      .catch(err => console.error('Registro de Service Worker falló:', err));
+  });
+}
+
+
