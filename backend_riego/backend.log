@@ -1,0 +1,1949 @@
+[2026-01-12 06:05:49] [INFO] GET /status solicitado
+[2026-01-12 06:05:49] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:05:53] [INFO] GET /status solicitado
+[2026-01-12 06:05:53] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:06:25] [INFO] GET /status solicitado
+[2026-01-12 06:06:25] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:06:49] [INFO] GET /status solicitado
+[2026-01-12 06:06:49] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:06:49] [INFO] GET /status solicitado
+[2026-01-12 06:06:49] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:07:03] [INFO] GET /status solicitado
+[2026-01-12 06:07:03] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:07:12] [INFO] POST /valve/1/on solicitado
+[2026-01-12 06:07:12] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 06:07:12] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 06:07:12] [INFO] GET /status solicitado
+[2026-01-12 06:07:12] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:07:17] [INFO] POST /valve/1/off solicitado
+[2026-01-12 06:07:17] [INFO] Válvula 1 APAGADA
+[2026-01-12 06:07:17] [INFO] Válvula 1 APAGADA
+[2026-01-12 06:07:17] [INFO] GET /status solicitado
+[2026-01-12 06:07:17] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:07:33] [INFO] GET /status solicitado
+[2026-01-12 06:07:33] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:08:03] [INFO] GET /status solicitado
+[2026-01-12 06:08:03] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:08:30] [INFO] DEBUG BODY: start='2026-01-12T01:12' end='2026-01-12T02:13'
+[2026-01-12 06:08:30] [INFO] Recibido start: 2026-01-12T01:12, end: 2026-01-12T02:13
+[2026-01-12 06:08:30] [INFO] Parsed start_dt: 2026-01-12 01:12:00, end_dt: 2026-01-12 02:13:00
+[2026-01-12 06:08:30] [INFO] now: 2026-01-12 06:08:30.381467, start_dt: 2026-01-12 01:12:00, end_dt: 2026-01-12 02:13:00
+[2026-01-12 06:08:30] [INFO] Hora de inicio inválida (pasada): 2026-01-12T01:12 -> 2026-01-12 01:12:00, ahora: 2026-01-12 06:08:30.381467
+[2026-01-12 06:08:47] [INFO] GET /status solicitado
+[2026-01-12 06:08:47] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:09:03] [INFO] GET /status solicitado
+[2026-01-12 06:09:03] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:09:27] [INFO] POST /valve/3/on solicitado
+[2026-01-12 06:09:27] [INFO] Válvula 3 ENCENDIDA
+[2026-01-12 06:09:27] [INFO] Válvula 3 ENCENDIDA
+[2026-01-12 06:09:27] [INFO] GET /status solicitado
+[2026-01-12 06:09:27] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:09:33] [INFO] GET /status solicitado
+[2026-01-12 06:09:33] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:09:53] [INFO] POST /valve/1/on solicitado
+[2026-01-12 06:09:53] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 06:09:53] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 06:09:53] [INFO] GET /status solicitado
+[2026-01-12 06:09:53] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:10:03] [INFO] GET /status solicitado
+[2026-01-12 06:10:03] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:10:33] [INFO] GET /status solicitado
+[2026-01-12 06:10:33] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:11:03] [INFO] GET /status solicitado
+[2026-01-12 06:11:03] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:11:25] [INFO] Reinicio solicitado desde el frontend
+[2026-01-12 06:21:49] [INFO] GET /status solicitado
+[2026-01-12 06:21:49] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:21:49] [INFO] GET /status solicitado
+[2026-01-12 06:21:49] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:21:56] [INFO] GET /status solicitado
+[2026-01-12 06:21:56] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:22:16] [INFO] GET /status solicitado
+[2026-01-12 06:22:16] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:22:46] [INFO] GET /status solicitado
+[2026-01-12 06:22:46] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:22:49] [INFO] GET /status solicitado
+[2026-01-12 06:22:49] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:22:59] [INFO] POST /valve/1/on solicitado
+[2026-01-12 06:22:59] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 06:22:59] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 06:22:59] [INFO] GET /status solicitado
+[2026-01-12 06:22:59] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:23:16] [INFO] GET /status solicitado
+[2026-01-12 06:23:16] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:23:47] [INFO] GET /status solicitado
+[2026-01-12 06:23:47] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:23:49] [INFO] GET /status solicitado
+[2026-01-12 06:23:49] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 06:24:03] [INFO] Apagado solicitado desde el frontend
+[2026-01-12 15:08:35] [INFO] GET /status solicitado
+[2026-01-12 15:08:35] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:09:05] [INFO] GET /status solicitado
+[2026-01-12 15:09:05] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:09:35] [INFO] GET /status solicitado
+[2026-01-12 15:09:35] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:09:41] [INFO] POST /valve/2/on solicitado
+[2026-01-12 15:09:41] [INFO] Válvula 2 ENCENDIDA
+[2026-01-12 15:09:41] [INFO] Válvula 2 ENCENDIDA
+[2026-01-12 15:09:41] [INFO] GET /status solicitado
+[2026-01-12 15:09:41] [INFO] Estado de válvulas: {1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:10:04] [INFO] GET /status solicitado
+[2026-01-12 15:10:04] [INFO] Estado de válvulas: {1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:10:35] [INFO] GET /status solicitado
+[2026-01-12 15:10:35] [INFO] Estado de válvulas: {1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:11:05] [INFO] GET /status solicitado
+[2026-01-12 15:11:05] [INFO] Estado de válvulas: {1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:11:35] [INFO] GET /status solicitado
+[2026-01-12 15:11:35] [INFO] Estado de válvulas: {1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:12:05] [INFO] GET /status solicitado
+[2026-01-12 15:12:05] [INFO] Estado de válvulas: {1: 0, 2: 1, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:17:06] [INFO] GET /status solicitado
+[2026-01-12 15:17:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:23:06] [INFO] GET /status solicitado
+[2026-01-12 15:23:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:23:58] [INFO] GET /status solicitado
+[2026-01-12 15:23:58] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:24:05] [INFO] GET /status solicitado
+[2026-01-12 15:24:05] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:24:12] [INFO] POST /valve/1/on solicitado
+[2026-01-12 15:24:12] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 15:24:12] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 15:24:12] [INFO] GET /status solicitado
+[2026-01-12 15:24:12] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:24:35] [INFO] GET /status solicitado
+[2026-01-12 15:24:35] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:24:45] [INFO] GET /status solicitado
+[2026-01-12 15:24:45] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:25:15] [INFO] GET /status solicitado
+[2026-01-12 15:25:15] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:25:45] [INFO] GET /status solicitado
+[2026-01-12 15:25:45] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:26:15] [INFO] GET /status solicitado
+[2026-01-12 15:26:15] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:26:45] [INFO] GET /status solicitado
+[2026-01-12 15:26:45] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:27:15] [INFO] GET /status solicitado
+[2026-01-12 15:27:15] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:27:45] [INFO] GET /status solicitado
+[2026-01-12 15:27:45] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:28:15] [INFO] GET /status solicitado
+[2026-01-12 15:28:15] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:28:45] [INFO] GET /status solicitado
+[2026-01-12 15:28:45] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:29:15] [INFO] GET /status solicitado
+[2026-01-12 15:29:15] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:29:45] [INFO] GET /status solicitado
+[2026-01-12 15:29:45] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:30:15] [INFO] GET /status solicitado
+[2026-01-12 15:30:15] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:30:45] [INFO] GET /status solicitado
+[2026-01-12 15:30:45] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:30:59] [INFO] POST /valve/1/off solicitado
+[2026-01-12 15:30:59] [INFO] Válvula 1 APAGADA
+[2026-01-12 15:30:59] [INFO] Válvula 1 APAGADA
+[2026-01-12 15:30:59] [INFO] GET /status solicitado
+[2026-01-12 15:30:59] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:31:15] [INFO] GET /status solicitado
+[2026-01-12 15:31:15] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:31:45] [INFO] GET /status solicitado
+[2026-01-12 15:31:45] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:32:15] [INFO] GET /status solicitado
+[2026-01-12 15:32:15] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:32:45] [INFO] GET /status solicitado
+[2026-01-12 15:32:45] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:34:06] [INFO] GET /status solicitado
+[2026-01-12 15:34:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:35:06] [INFO] GET /status solicitado
+[2026-01-12 15:35:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:35:15] [INFO] GET /status solicitado
+[2026-01-12 15:35:18] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:35:45] [INFO] GET /status solicitado
+[2026-01-12 15:35:45] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:36:58] [INFO] GET /status solicitado
+[2026-01-12 15:36:58] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:37:00] [INFO] POST /valve/1/on solicitado
+[2026-01-12 15:37:00] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 15:37:00] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 15:37:00] [INFO] GET /status solicitado
+[2026-01-12 15:37:00] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:37:15] [INFO] GET /status solicitado
+[2026-01-12 15:37:15] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:37:43] [INFO] POST /valve/1/off solicitado
+[2026-01-12 15:37:43] [INFO] Válvula 1 APAGADA
+[2026-01-12 15:37:43] [INFO] Válvula 1 APAGADA
+[2026-01-12 15:37:43] [INFO] GET /status solicitado
+[2026-01-12 15:37:43] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:37:45] [INFO] GET /status solicitado
+[2026-01-12 15:37:45] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:38:15] [INFO] GET /status solicitado
+[2026-01-12 15:38:15] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:38:45] [INFO] GET /status solicitado
+[2026-01-12 15:38:45] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:40:06] [INFO] GET /status solicitado
+[2026-01-12 15:40:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:41:06] [INFO] GET /status solicitado
+[2026-01-12 15:41:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:42:06] [INFO] GET /status solicitado
+[2026-01-12 15:42:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:43:06] [INFO] GET /status solicitado
+[2026-01-12 15:43:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:44:07] [INFO] GET /status solicitado
+[2026-01-12 15:44:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:45:06] [INFO] GET /status solicitado
+[2026-01-12 15:45:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:46:06] [INFO] GET /status solicitado
+[2026-01-12 15:46:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:47:06] [INFO] GET /status solicitado
+[2026-01-12 15:47:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:48:06] [INFO] GET /status solicitado
+[2026-01-12 15:48:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:49:06] [INFO] GET /status solicitado
+[2026-01-12 15:49:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:50:06] [INFO] GET /status solicitado
+[2026-01-12 15:50:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:51:06] [INFO] GET /status solicitado
+[2026-01-12 15:51:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:52:06] [INFO] GET /status solicitado
+[2026-01-12 15:52:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:53:06] [INFO] GET /status solicitado
+[2026-01-12 15:53:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:54:06] [INFO] GET /status solicitado
+[2026-01-12 15:54:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:55:06] [INFO] GET /status solicitado
+[2026-01-12 15:55:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:56:07] [INFO] GET /status solicitado
+[2026-01-12 15:56:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:57:06] [INFO] GET /status solicitado
+[2026-01-12 15:57:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:57:58] [INFO] GET /status solicitado
+[2026-01-12 15:57:58] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:58:00] [INFO] POST /valve/1/on solicitado
+[2026-01-12 15:58:00] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 15:58:00] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 15:58:00] [INFO] GET /status solicitado
+[2026-01-12 15:58:00] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:58:06] [INFO] GET /status solicitado
+[2026-01-12 15:58:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:58:28] [INFO] GET /status solicitado
+[2026-01-12 15:58:28] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:58:58] [INFO] GET /status solicitado
+[2026-01-12 15:58:58] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:59:06] [INFO] GET /status solicitado
+[2026-01-12 15:59:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:59:28] [INFO] GET /status solicitado
+[2026-01-12 15:59:28] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 15:59:58] [INFO] GET /status solicitado
+[2026-01-12 15:59:58] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:00:06] [INFO] GET /status solicitado
+[2026-01-12 16:00:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:00:28] [INFO] GET /status solicitado
+[2026-01-12 16:00:28] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:00:58] [INFO] GET /status solicitado
+[2026-01-12 16:00:58] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:01:06] [INFO] GET /status solicitado
+[2026-01-12 16:01:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:02:06] [INFO] GET /status solicitado
+[2026-01-12 16:02:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:02:06] [INFO] GET /status solicitado
+[2026-01-12 16:02:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:03:06] [INFO] GET /status solicitado
+[2026-01-12 16:03:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:03:06] [INFO] GET /status solicitado
+[2026-01-12 16:03:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:04:06] [INFO] GET /status solicitado
+[2026-01-12 16:04:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:04:06] [INFO] GET /status solicitado
+[2026-01-12 16:04:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:05:06] [INFO] GET /status solicitado
+[2026-01-12 16:05:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:05:06] [INFO] GET /status solicitado
+[2026-01-12 16:05:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:06:06] [INFO] GET /status solicitado
+[2026-01-12 16:06:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:06:06] [INFO] GET /status solicitado
+[2026-01-12 16:06:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:07:06] [INFO] GET /status solicitado
+[2026-01-12 16:07:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:07:06] [INFO] GET /status solicitado
+[2026-01-12 16:07:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:08:06] [INFO] GET /status solicitado
+[2026-01-12 16:08:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:08:06] [INFO] GET /status solicitado
+[2026-01-12 16:08:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:08:55] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:08:55] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:08:55] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:08:55] [INFO] POST /valve/1/off solicitado
+[2026-01-12 16:08:55] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:08:55] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:08:55] [INFO] GET /status solicitado
+[2026-01-12 16:08:55] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:09:06] [INFO] GET /status solicitado
+[2026-01-12 16:09:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:09:07] [INFO] GET /status solicitado
+[2026-01-12 16:09:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:10:06] [INFO] GET /status solicitado
+[2026-01-12 16:10:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:10:06] [INFO] GET /status solicitado
+[2026-01-12 16:10:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:11:06] [INFO] GET /status solicitado
+[2026-01-12 16:11:08] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:11:08] [INFO] GET /status solicitado
+[2026-01-12 16:11:08] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:12:06] [INFO] GET /status solicitado
+[2026-01-12 16:12:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:12:06] [INFO] GET /status solicitado
+[2026-01-12 16:12:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:13:06] [INFO] GET /status solicitado
+[2026-01-12 16:13:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:13:06] [INFO] GET /status solicitado
+[2026-01-12 16:13:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:14:06] [INFO] GET /status solicitado
+[2026-01-12 16:14:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:14:06] [INFO] GET /status solicitado
+[2026-01-12 16:14:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:15:06] [INFO] GET /status solicitado
+[2026-01-12 16:15:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:15:06] [INFO] GET /status solicitado
+[2026-01-12 16:15:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:16:03] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:16:03] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:16:03] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:16:03] [INFO] POST /valve/1/off solicitado
+[2026-01-12 16:16:03] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:16:03] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:16:03] [INFO] GET /status solicitado
+[2026-01-12 16:16:03] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:16:06] [INFO] GET /status solicitado
+[2026-01-12 16:16:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:16:06] [INFO] GET /status solicitado
+[2026-01-12 16:16:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:17:06] [INFO] GET /status solicitado
+[2026-01-12 16:17:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:17:06] [INFO] GET /status solicitado
+[2026-01-12 16:17:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:18:06] [INFO] GET /status solicitado
+[2026-01-12 16:18:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:18:06] [INFO] GET /status solicitado
+[2026-01-12 16:18:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:19:06] [INFO] GET /status solicitado
+[2026-01-12 16:19:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:19:07] [INFO] GET /status solicitado
+[2026-01-12 16:19:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:19:22] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:19:22] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:20:06] [INFO] GET /status solicitado
+[2026-01-12 16:20:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:20:06] [INFO] GET /status solicitado
+[2026-01-12 16:20:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:21:06] [INFO] GET /status solicitado
+[2026-01-12 16:21:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:21:06] [INFO] GET /status solicitado
+[2026-01-12 16:21:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:22:06] [INFO] GET /status solicitado
+[2026-01-12 16:22:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:22:06] [INFO] GET /status solicitado
+[2026-01-12 16:22:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:23:06] [INFO] GET /status solicitado
+[2026-01-12 16:23:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:23:06] [INFO] GET /status solicitado
+[2026-01-12 16:23:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:30:08] [INFO] GET /status solicitado
+[2026-01-12 16:30:08] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:30:08] [INFO] GET /status solicitado
+[2026-01-12 16:30:08] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:30:39] [INFO] GET /status solicitado
+[2026-01-12 16:30:39] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:30:52] [INFO] GET /status solicitado
+[2026-01-12 16:30:52] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:30:55] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:30:55] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:30:55] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:30:55] [INFO] GET /status solicitado
+[2026-01-12 16:30:55] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:30:57] [INFO] POST /valve/1/off solicitado
+[2026-01-12 16:30:57] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:30:57] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:30:57] [INFO] GET /status solicitado
+[2026-01-12 16:30:57] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:30:59] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:31:02] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:31:02] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:31:02] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:31:02] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:31:02] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:31:02] [INFO] GET /status solicitado
+[2026-01-12 16:31:02] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:31:02] [INFO] GET /status solicitado
+[2026-01-12 16:31:02] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:31:06] [INFO] GET /status solicitado
+[2026-01-12 16:31:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:31:13] [INFO] POST /valve/1/off solicitado
+[2026-01-12 16:31:13] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:31:13] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:31:14] [INFO] GET /status solicitado
+[2026-01-12 16:31:14] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:31:22] [INFO] GET /status solicitado
+[2026-01-12 16:31:22] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:31:52] [INFO] GET /status solicitado
+[2026-01-12 16:31:52] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:32:07] [INFO] GET /status solicitado
+[2026-01-12 16:32:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:32:23] [INFO] GET /status solicitado
+[2026-01-12 16:32:23] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:32:31] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:32:31] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:32:31] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:32:31] [INFO] GET /status solicitado
+[2026-01-12 16:32:31] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:32:32] [INFO] POST /valve/1/off solicitado
+[2026-01-12 16:32:32] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:32:32] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:32:32] [INFO] GET /status solicitado
+[2026-01-12 16:32:32] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:32:53] [INFO] GET /status solicitado
+[2026-01-12 16:32:53] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:33:06] [INFO] GET /status solicitado
+[2026-01-12 16:33:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:33:23] [INFO] GET /status solicitado
+[2026-01-12 16:33:23] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:33:53] [INFO] GET /status solicitado
+[2026-01-12 16:33:53] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:34:06] [INFO] GET /status solicitado
+[2026-01-12 16:34:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:35:06] [INFO] GET /status solicitado
+[2026-01-12 16:35:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:35:06] [INFO] GET /status solicitado
+[2026-01-12 16:35:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:36:06] [INFO] GET /status solicitado
+[2026-01-12 16:36:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:36:06] [INFO] GET /status solicitado
+[2026-01-12 16:36:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:37:06] [INFO] GET /status solicitado
+[2026-01-12 16:37:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:37:06] [INFO] GET /status solicitado
+[2026-01-12 16:37:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:37:09] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:37:09] [INFO] GET /status solicitado
+[2026-01-12 16:37:09] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:37:12] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:37:13] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:37:13] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:37:13] [INFO] GET /status solicitado
+[2026-01-12 16:37:13] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:37:16] [INFO] POST /valve/1/off solicitado
+[2026-01-12 16:37:16] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:37:16] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:37:16] [INFO] GET /status solicitado
+[2026-01-12 16:37:16] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:37:19] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:37:20] [INFO] GET /status solicitado
+[2026-01-12 16:37:20] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:37:22] [INFO] GET /status solicitado
+[2026-01-12 16:37:22] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:37:26] [INFO] GET /status solicitado
+[2026-01-12 16:37:26] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:37:29] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:37:29] [INFO] GET /status solicitado
+[2026-01-12 16:37:29] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:37:45] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:37:45] [INFO] GET /status solicitado
+[2026-01-12 16:37:45] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:37:56] [INFO] GET /status solicitado
+[2026-01-12 16:37:57] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:38:06] [INFO] GET /status solicitado
+[2026-01-12 16:38:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:38:13] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:38:13] [INFO] GET /status solicitado
+[2026-01-12 16:38:13] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:38:26] [INFO] GET /status solicitado
+[2026-01-12 16:38:26] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:38:50] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:38:50] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:38:50] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:38:50] [INFO] GET /status solicitado
+[2026-01-12 16:38:50] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:38:56] [INFO] POST /valve/1/off solicitado
+[2026-01-12 16:38:56] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:38:56] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:38:56] [INFO] GET /status solicitado
+[2026-01-12 16:38:56] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:38:56] [INFO] GET /status solicitado
+[2026-01-12 16:38:56] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:38:58] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:38:58] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:38:58] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:38:58] [INFO] GET /status solicitado
+[2026-01-12 16:38:58] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:39:01] [INFO] POST /valve/1/off solicitado
+[2026-01-12 16:39:01] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:39:01] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:39:02] [INFO] GET /status solicitado
+[2026-01-12 16:39:02] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:39:03] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:39:03] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:39:03] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:39:03] [INFO] GET /status solicitado
+[2026-01-12 16:39:03] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:39:04] [INFO] POST /valve/1/off solicitado
+[2026-01-12 16:39:04] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:39:04] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:39:04] [INFO] GET /status solicitado
+[2026-01-12 16:39:04] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:39:04] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:39:04] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:39:04] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:39:05] [INFO] GET /status solicitado
+[2026-01-12 16:39:05] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:39:05] [INFO] POST /valve/1/off solicitado
+[2026-01-12 16:39:05] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:39:05] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:39:06] [INFO] GET /status solicitado
+[2026-01-12 16:39:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:39:06] [INFO] GET /status solicitado
+[2026-01-12 16:39:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:39:25] [INFO] GET /status solicitado
+[2026-01-12 16:39:25] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:39:26] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:39:26] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:39:26] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:39:27] [INFO] GET /status solicitado
+[2026-01-12 16:39:27] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:39:28] [INFO] POST /valve/1/off solicitado
+[2026-01-12 16:39:28] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:39:28] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:39:28] [INFO] GET /status solicitado
+[2026-01-12 16:39:28] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:39:55] [INFO] GET /status solicitado
+[2026-01-12 16:39:55] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:40:06] [INFO] GET /status solicitado
+[2026-01-12 16:40:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:40:18] [INFO] DEBUG BODY: start='2026-01-12T11:41' end='2026-01-12T11:43'
+[2026-01-12 16:40:18] [INFO] Recibido start: 2026-01-12T11:41, end: 2026-01-12T11:43
+[2026-01-12 16:40:18] [INFO] Parsed start_dt: 2026-01-12 11:41:00, end_dt: 2026-01-12 11:43:00
+[2026-01-12 16:40:18] [INFO] now: 2026-01-12 16:40:18.710742, start_dt: 2026-01-12 11:41:00, end_dt: 2026-01-12 11:43:00
+[2026-01-12 16:40:18] [INFO] Hora de inicio inválida (pasada): 2026-01-12T11:41 -> 2026-01-12 11:41:00, ahora: 2026-01-12 16:40:18.710742
+[2026-01-12 16:40:25] [INFO] GET /status solicitado
+[2026-01-12 16:40:25] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:40:55] [INFO] GET /status solicitado
+[2026-01-12 16:40:55] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:41:06] [INFO] GET /status solicitado
+[2026-01-12 16:41:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:41:25] [INFO] GET /status solicitado
+[2026-01-12 16:41:25] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:41:55] [INFO] GET /status solicitado
+[2026-01-12 16:41:55] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:42:06] [INFO] GET /status solicitado
+[2026-01-12 16:42:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:42:25] [INFO] GET /status solicitado
+[2026-01-12 16:42:25] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:42:34] [INFO] POST /valve/12/on solicitado
+[2026-01-12 16:42:34] [INFO] Válvula 12 ENCENDIDA
+[2026-01-12 16:42:34] [INFO] Válvula 12 ENCENDIDA
+[2026-01-12 16:42:34] [INFO] GET /status solicitado
+[2026-01-12 16:42:34] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 1}
+[2026-01-12 16:42:38] [INFO] POST /valve/12/off solicitado
+[2026-01-12 16:42:38] [INFO] Válvula 12 APAGADA
+[2026-01-12 16:42:38] [INFO] Válvula 12 APAGADA
+[2026-01-12 16:42:38] [INFO] GET /status solicitado
+[2026-01-12 16:42:38] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:42:55] [INFO] GET /status solicitado
+[2026-01-12 16:42:55] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:43:06] [INFO] GET /status solicitado
+[2026-01-12 16:43:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:43:08] [INFO] POST /valve/9/on solicitado
+[2026-01-12 16:43:08] [INFO] Válvula 9 ENCENDIDA
+[2026-01-12 16:43:08] [INFO] Válvula 9 ENCENDIDA
+[2026-01-12 16:43:08] [INFO] GET /status solicitado
+[2026-01-12 16:43:08] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 1, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:43:13] [INFO] POST /valve/9/off solicitado
+[2026-01-12 16:43:13] [INFO] Válvula 9 APAGADA
+[2026-01-12 16:43:13] [INFO] Válvula 9 APAGADA
+[2026-01-12 16:43:13] [INFO] GET /status solicitado
+[2026-01-12 16:43:13] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:43:16] [INFO] POST /valve/9/on solicitado
+[2026-01-12 16:43:16] [INFO] Válvula 9 ENCENDIDA
+[2026-01-12 16:43:16] [INFO] Válvula 9 ENCENDIDA
+[2026-01-12 16:43:16] [INFO] GET /status solicitado
+[2026-01-12 16:43:16] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 1, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:43:25] [INFO] GET /status solicitado
+[2026-01-12 16:43:25] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 1, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:43:27] [INFO] POST /valve/9/off solicitado
+[2026-01-12 16:43:27] [INFO] Válvula 9 APAGADA
+[2026-01-12 16:43:27] [INFO] Válvula 9 APAGADA
+[2026-01-12 16:43:27] [INFO] GET /status solicitado
+[2026-01-12 16:43:27] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:43:35] [INFO] POST /valve/1/on solicitado
+[2026-01-12 16:43:35] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:43:35] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 16:43:35] [INFO] GET /status solicitado
+[2026-01-12 16:43:35] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:43:36] [INFO] POST /valve/1/off solicitado
+[2026-01-12 16:43:36] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:43:36] [INFO] Válvula 1 APAGADA
+[2026-01-12 16:43:36] [INFO] GET /status solicitado
+[2026-01-12 16:43:36] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:43:55] [INFO] GET /status solicitado
+[2026-01-12 16:43:55] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:44:06] [INFO] GET /status solicitado
+[2026-01-12 16:44:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:44:25] [INFO] GET /status solicitado
+[2026-01-12 16:44:25] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:44:55] [INFO] GET /status solicitado
+[2026-01-12 16:44:55] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:45:06] [INFO] GET /status solicitado
+[2026-01-12 16:45:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:45:25] [INFO] GET /status solicitado
+[2026-01-12 16:45:25] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:46:06] [INFO] GET /status solicitado
+[2026-01-12 16:46:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:46:06] [INFO] GET /status solicitado
+[2026-01-12 16:46:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:47:06] [INFO] GET /status solicitado
+[2026-01-12 16:47:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:47:06] [INFO] GET /status solicitado
+[2026-01-12 16:47:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:48:06] [INFO] GET /status solicitado
+[2026-01-12 16:48:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:48:07] [INFO] GET /status solicitado
+[2026-01-12 16:48:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:49:06] [INFO] GET /status solicitado
+[2026-01-12 16:49:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:49:06] [INFO] GET /status solicitado
+[2026-01-12 16:49:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:50:06] [INFO] GET /status solicitado
+[2026-01-12 16:50:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:50:07] [INFO] GET /status solicitado
+[2026-01-12 16:50:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:51:06] [INFO] GET /status solicitado
+[2026-01-12 16:51:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:51:06] [INFO] GET /status solicitado
+[2026-01-12 16:51:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:51:25] [INFO] GET /status solicitado
+[2026-01-12 16:51:25] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:51:55] [INFO] GET /status solicitado
+[2026-01-12 16:51:55] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:52:06] [INFO] GET /status solicitado
+[2026-01-12 16:52:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:52:25] [INFO] GET /status solicitado
+[2026-01-12 16:52:25] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:53:06] [INFO] GET /status solicitado
+[2026-01-12 16:53:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:53:06] [INFO] GET /status solicitado
+[2026-01-12 16:53:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:54:06] [INFO] GET /status solicitado
+[2026-01-12 16:54:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:54:06] [INFO] GET /status solicitado
+[2026-01-12 16:54:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:55:06] [INFO] GET /status solicitado
+[2026-01-12 16:55:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:55:06] [INFO] GET /status solicitado
+[2026-01-12 16:55:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:56:06] [INFO] GET /status solicitado
+[2026-01-12 16:56:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:56:06] [INFO] GET /status solicitado
+[2026-01-12 16:56:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:57:06] [INFO] GET /status solicitado
+[2026-01-12 16:57:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:57:06] [INFO] GET /status solicitado
+[2026-01-12 16:57:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:58:06] [INFO] GET /status solicitado
+[2026-01-12 16:58:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:58:06] [INFO] GET /status solicitado
+[2026-01-12 16:58:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:59:06] [INFO] GET /status solicitado
+[2026-01-12 16:59:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 16:59:06] [INFO] GET /status solicitado
+[2026-01-12 16:59:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:00:06] [INFO] GET /status solicitado
+[2026-01-12 17:00:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:00:06] [INFO] GET /status solicitado
+[2026-01-12 17:00:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:01:06] [INFO] GET /status solicitado
+[2026-01-12 17:01:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:01:06] [INFO] GET /status solicitado
+[2026-01-12 17:01:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:01:36] [INFO] DEBUG BODY: start='2026-01-12T16:21:00' end='2026-01-12T16:23:00'
+[2026-01-12 17:01:36] [INFO] Recibido start: 2026-01-12T16:21:00, end: 2026-01-12T16:23:00
+[2026-01-12 17:01:36] [INFO] Parsed start_dt: 2026-01-12 16:21:00, end_dt: 2026-01-12 16:23:00
+[2026-01-12 17:01:36] [INFO] now: 2026-01-12 17:01:36.063601, start_dt: 2026-01-12 16:21:00, end_dt: 2026-01-12 16:23:00
+[2026-01-12 17:01:36] [INFO] Hora de inicio inválida (pasada): 2026-01-12T16:21:00 -> 2026-01-12 16:21:00, ahora: 2026-01-12 17:01:36.063601
+[2026-01-12 17:02:06] [INFO] GET /status solicitado
+[2026-01-12 17:02:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:02:06] [INFO] GET /status solicitado
+[2026-01-12 17:02:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:03:06] [INFO] GET /status solicitado
+[2026-01-12 17:03:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:03:06] [INFO] GET /status solicitado
+[2026-01-12 17:03:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:04:06] [INFO] GET /status solicitado
+[2026-01-12 17:04:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:04:06] [INFO] GET /status solicitado
+[2026-01-12 17:04:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:05:06] [INFO] GET /status solicitado
+[2026-01-12 17:05:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:05:06] [INFO] GET /status solicitado
+[2026-01-12 17:05:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:06:06] [INFO] GET /status solicitado
+[2026-01-12 17:06:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:06:06] [INFO] GET /status solicitado
+[2026-01-12 17:06:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:07:06] [INFO] GET /status solicitado
+[2026-01-12 17:07:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:07:06] [INFO] GET /status solicitado
+[2026-01-12 17:07:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:08:06] [INFO] GET /status solicitado
+[2026-01-12 17:08:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:08:06] [INFO] GET /status solicitado
+[2026-01-12 17:08:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:09:06] [INFO] GET /status solicitado
+[2026-01-12 17:09:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:09:06] [INFO] GET /status solicitado
+[2026-01-12 17:09:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:09:37] [INFO] DEBUG BODY: start='2026-01-12T16:32:00' end='2026-01-12T16:34:00'
+[2026-01-12 17:09:37] [INFO] Recibido start: 2026-01-12T16:32:00, end: 2026-01-12T16:34:00
+[2026-01-12 17:09:37] [INFO] Parsed start_dt: 2026-01-12 16:32:00, end_dt: 2026-01-12 16:34:00
+[2026-01-12 17:09:37] [INFO] now: 2026-01-12 17:09:37.197483, start_dt: 2026-01-12 16:32:00, end_dt: 2026-01-12 16:34:00
+[2026-01-12 17:09:37] [INFO] Hora de inicio inválida (pasada): 2026-01-12T16:32:00 -> 2026-01-12 16:32:00, ahora: 2026-01-12 17:09:37.197483
+[2026-01-12 17:09:56] [INFO] GET /status solicitado
+[2026-01-12 17:09:56] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:10:02] [INFO] GET /status solicitado
+[2026-01-12 17:10:02] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:10:05] [INFO] POST /valve/1/on solicitado
+[2026-01-12 17:10:05] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 17:10:05] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 17:10:05] [INFO] GET /status solicitado
+[2026-01-12 17:10:05] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:10:06] [INFO] GET /status solicitado
+[2026-01-12 17:10:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:10:07] [INFO] POST /valve/1/off solicitado
+[2026-01-12 17:10:07] [INFO] Válvula 1 APAGADA
+[2026-01-12 17:10:07] [INFO] Válvula 1 APAGADA
+[2026-01-12 17:10:07] [INFO] GET /status solicitado
+[2026-01-12 17:10:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:10:29] [INFO] DEBUG BODY: start='2026-01-12T12:13' end='2026-01-12T12:15'
+[2026-01-12 17:10:29] [INFO] Recibido start: 2026-01-12T12:13, end: 2026-01-12T12:15
+[2026-01-12 17:10:29] [INFO] Parsed start_dt: 2026-01-12 12:13:00, end_dt: 2026-01-12 12:15:00
+[2026-01-12 17:10:29] [INFO] now: 2026-01-12 17:10:29.255500, start_dt: 2026-01-12 12:13:00, end_dt: 2026-01-12 12:15:00
+[2026-01-12 17:10:29] [INFO] Hora de inicio inválida (pasada): 2026-01-12T12:13 -> 2026-01-12 12:13:00, ahora: 2026-01-12 17:10:29.255500
+[2026-01-12 17:11:06] [INFO] GET /status solicitado
+[2026-01-12 17:11:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:12:06] [INFO] GET /status solicitado
+[2026-01-12 17:12:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:13:06] [INFO] GET /status solicitado
+[2026-01-12 17:13:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:14:06] [INFO] GET /status solicitado
+[2026-01-12 17:14:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:14:23] [INFO] DEBUG BODY: start='2026-01-12T17:15:00' end='2026-01-12T17:17:00'
+[2026-01-12 17:14:23] [INFO] Recibido start: 2026-01-12T17:15:00, end: 2026-01-12T17:17:00
+[2026-01-12 17:14:23] [INFO] Parsed start_dt: 2026-01-12 17:15:00, end_dt: 2026-01-12 17:17:00
+[2026-01-12 17:14:23] [INFO] now: 2026-01-12 17:14:23.248566, start_dt: 2026-01-12 17:15:00, end_dt: 2026-01-12 17:17:00
+[2026-01-12 17:14:23] [INFO] Programando válvula 1 de 2026-01-12 17:15:00 a 2026-01-12 17:17:00 (ahora: 2026-01-12 17:14:23.248566)
+[2026-01-12 17:15:06] [INFO] GET /status solicitado
+[2026-01-12 17:15:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:16:06] [INFO] GET /status solicitado
+[2026-01-12 17:16:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:17:06] [INFO] GET /status solicitado
+[2026-01-12 17:17:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:18:06] [INFO] GET /status solicitado
+[2026-01-12 17:18:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:19:06] [INFO] GET /status solicitado
+[2026-01-12 17:19:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:19:39] [INFO] GET /status solicitado
+[2026-01-12 17:19:39] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:19:41] [INFO] POST /valve/1/on solicitado
+[2026-01-12 17:19:41] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 17:19:41] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 17:19:41] [INFO] GET /status solicitado
+[2026-01-12 17:19:41] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:19:43] [INFO] POST /valve/1/off solicitado
+[2026-01-12 17:19:43] [INFO] Válvula 1 APAGADA
+[2026-01-12 17:19:43] [INFO] Válvula 1 APAGADA
+[2026-01-12 17:19:43] [INFO] GET /status solicitado
+[2026-01-12 17:19:43] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:19:44] [INFO] POST /valve/1/on solicitado
+[2026-01-12 17:19:44] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 17:19:45] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 17:19:45] [INFO] POST /valve/1/on solicitado
+[2026-01-12 17:19:45] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 17:19:45] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 17:19:45] [INFO] GET /status solicitado
+[2026-01-12 17:19:45] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:19:46] [INFO] GET /status solicitado
+[2026-01-12 17:19:46] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:19:48] [INFO] POST /valve/1/off solicitado
+[2026-01-12 17:19:48] [INFO] Válvula 1 APAGADA
+[2026-01-12 17:19:48] [INFO] Válvula 1 APAGADA
+[2026-01-12 17:19:48] [INFO] GET /status solicitado
+[2026-01-12 17:19:48] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:20:02] [INFO] GET /status solicitado
+[2026-01-12 17:20:02] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:20:06] [INFO] GET /status solicitado
+[2026-01-12 17:20:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:20:32] [INFO] GET /status solicitado
+[2026-01-12 17:20:34] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:21:02] [INFO] GET /status solicitado
+[2026-01-12 17:21:02] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:21:06] [INFO] GET /status solicitado
+[2026-01-12 17:21:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:21:23] [INFO] DEBUG BODY: start='2026-01-12T17:15:00' end='2026-01-12T17:17:00'
+[2026-01-12 17:21:23] [INFO] Recibido start: 2026-01-12T17:15:00, end: 2026-01-12T17:17:00
+[2026-01-12 17:21:23] [INFO] Parsed start_dt: 2026-01-12 17:15:00, end_dt: 2026-01-12 17:17:00
+[2026-01-12 17:21:23] [INFO] now: 2026-01-12 17:21:23.184972, start_dt: 2026-01-12 17:15:00, end_dt: 2026-01-12 17:17:00
+[2026-01-12 17:21:23] [INFO] Hora de inicio inválida (pasada): 2026-01-12T17:15:00 -> 2026-01-12 17:15:00, ahora: 2026-01-12 17:21:23.184972
+[2026-01-12 17:21:32] [INFO] GET /status solicitado
+[2026-01-12 17:21:32] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:22:02] [INFO] GET /status solicitado
+[2026-01-12 17:22:02] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:22:06] [INFO] GET /status solicitado
+[2026-01-12 17:22:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:23:06] [INFO] GET /status solicitado
+[2026-01-12 17:23:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:23:06] [INFO] GET /status solicitado
+[2026-01-12 17:23:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:24:06] [INFO] GET /status solicitado
+[2026-01-12 17:24:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:24:11] [INFO] GET /status solicitado
+[2026-01-12 17:24:11] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:25:06] [INFO] GET /status solicitado
+[2026-01-12 17:25:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:25:06] [INFO] GET /status solicitado
+[2026-01-12 17:25:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:26:06] [INFO] GET /status solicitado
+[2026-01-12 17:26:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:26:06] [INFO] GET /status solicitado
+[2026-01-12 17:26:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:27:06] [INFO] GET /status solicitado
+[2026-01-12 17:27:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:27:06] [INFO] GET /status solicitado
+[2026-01-12 17:27:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:28:06] [INFO] GET /status solicitado
+[2026-01-12 17:28:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:28:06] [INFO] GET /status solicitado
+[2026-01-12 17:28:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:29:06] [INFO] GET /status solicitado
+[2026-01-12 17:29:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:29:06] [INFO] GET /status solicitado
+[2026-01-12 17:29:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:30:06] [INFO] GET /status solicitado
+[2026-01-12 17:30:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:30:06] [INFO] GET /status solicitado
+[2026-01-12 17:30:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:31:06] [INFO] GET /status solicitado
+[2026-01-12 17:31:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:31:06] [INFO] GET /status solicitado
+[2026-01-12 17:31:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:32:06] [INFO] GET /status solicitado
+[2026-01-12 17:32:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:32:06] [INFO] GET /status solicitado
+[2026-01-12 17:32:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:33:06] [INFO] GET /status solicitado
+[2026-01-12 17:33:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:33:06] [INFO] GET /status solicitado
+[2026-01-12 17:33:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:33:55] [INFO] GET /status solicitado
+[2026-01-12 17:33:55] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:34:01] [INFO] GET /status solicitado
+[2026-01-12 17:34:01] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:34:04] [INFO] POST /valve/1/on solicitado
+[2026-01-12 17:34:04] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 17:34:04] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 17:34:04] [INFO] GET /status solicitado
+[2026-01-12 17:34:04] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:34:06] [INFO] POST /valve/1/off solicitado
+[2026-01-12 17:34:06] [INFO] Válvula 1 APAGADA
+[2026-01-12 17:34:06] [INFO] Válvula 1 APAGADA
+[2026-01-12 17:34:06] [INFO] GET /status solicitado
+[2026-01-12 17:34:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:34:06] [INFO] GET /status solicitado
+[2026-01-12 17:34:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:34:25] [INFO] DEBUG BODY: start='2026-01-12T12:35' end='2026-01-12T12:36'
+[2026-01-12 17:34:25] [INFO] Recibido start: 2026-01-12T12:35, end: 2026-01-12T12:36
+[2026-01-12 17:34:25] [INFO] Parsed start_dt: 2026-01-12 12:35:00, end_dt: 2026-01-12 12:36:00
+[2026-01-12 17:34:25] [INFO] now: 2026-01-12 17:34:25.600948, start_dt: 2026-01-12 12:35:00, end_dt: 2026-01-12 12:36:00
+[2026-01-12 17:34:25] [INFO] Hora de inicio inválida (pasada): 2026-01-12T12:35 -> 2026-01-12 12:35:00, ahora: 2026-01-12 17:34:25.600948
+[2026-01-12 17:34:31] [INFO] GET /status solicitado
+[2026-01-12 17:34:31] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:35:01] [INFO] GET /status solicitado
+[2026-01-12 17:35:01] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:35:06] [INFO] GET /status solicitado
+[2026-01-12 17:35:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:35:12] [INFO] GET /status solicitado
+[2026-01-12 17:35:12] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:35:14] [INFO] POST /valve/1/on solicitado
+[2026-01-12 17:35:14] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 17:35:14] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 17:35:14] [INFO] GET /status solicitado
+[2026-01-12 17:35:14] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:35:15] [INFO] POST /valve/1/off solicitado
+[2026-01-12 17:35:15] [INFO] Válvula 1 APAGADA
+[2026-01-12 17:35:15] [INFO] Válvula 1 APAGADA
+[2026-01-12 17:35:15] [INFO] GET /status solicitado
+[2026-01-12 17:35:15] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:35:31] [INFO] GET /status solicitado
+[2026-01-12 17:35:31] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:35:36] [INFO] DEBUG BODY: start='2026-01-12T12:38' end='2026-01-12T12:39'
+[2026-01-12 17:35:36] [INFO] Recibido start: 2026-01-12T12:38, end: 2026-01-12T12:39
+[2026-01-12 17:35:36] [INFO] Parsed start_dt: 2026-01-12 12:38:00, end_dt: 2026-01-12 12:39:00
+[2026-01-12 17:35:36] [INFO] now: 2026-01-12 17:35:36.158823, start_dt: 2026-01-12 12:38:00, end_dt: 2026-01-12 12:39:00
+[2026-01-12 17:35:36] [INFO] Hora de inicio inválida (pasada): 2026-01-12T12:38 -> 2026-01-12 12:38:00, ahora: 2026-01-12 17:35:36.158823
+[2026-01-12 17:35:42] [INFO] GET /status solicitado
+[2026-01-12 17:35:42] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:36:01] [INFO] GET /status solicitado
+[2026-01-12 17:36:01] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:36:06] [INFO] GET /status solicitado
+[2026-01-12 17:36:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:36:12] [INFO] GET /status solicitado
+[2026-01-12 17:36:12] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:36:28] [INFO] GET /status solicitado
+[2026-01-12 17:36:28] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:36:31] [INFO] GET /status solicitado
+[2026-01-12 17:36:31] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:36:42] [INFO] GET /status solicitado
+[2026-01-12 17:36:42] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:36:45] [INFO] GET /status solicitado
+[2026-01-12 17:36:45] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:37:01] [INFO] GET /status solicitado
+[2026-01-12 17:37:01] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:37:12] [INFO] GET /status solicitado
+[2026-01-12 17:37:12] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:37:15] [INFO] GET /status solicitado
+[2026-01-12 17:37:15] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:37:42] [INFO] GET /status solicitado
+[2026-01-12 17:37:42] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:37:49] [INFO] DEBUG BODY: start='2026-01-12T17:37:00' end='2026-01-12T17:39:00'
+[2026-01-12 17:37:49] [INFO] Recibido start: 2026-01-12T17:37:00, end: 2026-01-12T17:39:00
+[2026-01-12 17:37:49] [INFO] Parsed start_dt: 2026-01-12 17:37:00, end_dt: 2026-01-12 17:39:00
+[2026-01-12 17:37:49] [INFO] now: 2026-01-12 17:37:49.282174, start_dt: 2026-01-12 17:37:00, end_dt: 2026-01-12 17:39:00
+[2026-01-12 17:37:49] [INFO] Programando válvula 1 de 2026-01-12 17:37:00 a 2026-01-12 17:39:00 (ahora: 2026-01-12 17:37:49.282174)
+[2026-01-12 17:38:06] [INFO] GET /status solicitado
+[2026-01-12 17:38:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:38:06] [INFO] GET /status solicitado
+[2026-01-12 17:38:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:38:12] [INFO] GET /status solicitado
+[2026-01-12 17:38:12] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:39:06] [INFO] GET /status solicitado
+[2026-01-12 17:39:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:39:06] [INFO] GET /status solicitado
+[2026-01-12 17:39:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:39:06] [INFO] GET /status solicitado
+[2026-01-12 17:39:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:40:06] [INFO] GET /status solicitado
+[2026-01-12 17:40:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:40:06] [INFO] GET /status solicitado
+[2026-01-12 17:40:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:40:06] [INFO] GET /status solicitado
+[2026-01-12 17:40:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:41:06] [INFO] GET /status solicitado
+[2026-01-12 17:41:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:41:06] [INFO] GET /status solicitado
+[2026-01-12 17:41:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:41:06] [INFO] GET /status solicitado
+[2026-01-12 17:41:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:42:06] [INFO] GET /status solicitado
+[2026-01-12 17:42:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:42:06] [INFO] GET /status solicitado
+[2026-01-12 17:42:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:42:06] [INFO] GET /status solicitado
+[2026-01-12 17:42:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:43:06] [INFO] GET /status solicitado
+[2026-01-12 17:43:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:43:06] [INFO] GET /status solicitado
+[2026-01-12 17:43:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:43:06] [INFO] GET /status solicitado
+[2026-01-12 17:43:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:44:06] [INFO] GET /status solicitado
+[2026-01-12 17:44:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:44:06] [INFO] GET /status solicitado
+[2026-01-12 17:44:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:44:06] [INFO] GET /status solicitado
+[2026-01-12 17:44:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:44:07] [INFO] DEBUG BODY: start='2026-01-12T17:37:00' end='2026-01-12T17:39:00'
+[2026-01-12 17:44:07] [INFO] Recibido start: 2026-01-12T17:37:00, end: 2026-01-12T17:39:00
+[2026-01-12 17:44:07] [INFO] Parsed start_dt: 2026-01-12 17:37:00, end_dt: 2026-01-12 17:39:00
+[2026-01-12 17:44:07] [INFO] now: 2026-01-12 17:44:07.883944, start_dt: 2026-01-12 17:37:00, end_dt: 2026-01-12 17:39:00
+[2026-01-12 17:44:07] [INFO] Hora de inicio inválida (pasada): 2026-01-12T17:37:00 -> 2026-01-12 17:37:00, ahora: 2026-01-12 17:44:07.883944
+[2026-01-12 17:45:06] [INFO] GET /status solicitado
+[2026-01-12 17:45:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:45:06] [INFO] GET /status solicitado
+[2026-01-12 17:45:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 17:45:06] [INFO] GET /status solicitado
+[2026-01-12 17:45:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:46:06] [INFO] GET /status solicitado
+[2026-01-12 12:46:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:46:06] [INFO] GET /status solicitado
+[2026-01-12 12:46:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:46:06] [INFO] DEBUG BODY: start='2026-01-12T17:37:00' end='2026-01-12T17:39:00'
+[2026-01-12 12:46:06] [INFO] Recibido start: 2026-01-12T17:37:00, end: 2026-01-12T17:39:00
+[2026-01-12 12:46:06] [INFO] Parsed start_dt: 2026-01-12 17:37:00-05:00, end_dt: 2026-01-12 17:39:00-05:00, now: 2026-01-12 12:46:06.979279-05:00
+[2026-01-12 12:46:06] [INFO] Programando válvula 1 de 2026-01-12 17:37:00-05:00 a 2026-01-12 17:39:00-05:00
+[2026-01-12 12:46:10] [INFO] [APScheduler] Programada válvula 1 de 2026-01-12 17:37:00-05:00 a 2026-01-12 17:39:00-05:00
+[2026-01-12 12:46:10] [INFO] Válvula 1 programada de 2026-01-12T17:37:00 a 2026-01-12T17:39:00
+[2026-01-12 12:46:10] [INFO] GET /status solicitado
+[2026-01-12 12:46:10] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:47:06] [INFO] GET /status solicitado
+[2026-01-12 12:47:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:47:06] [INFO] GET /status solicitado
+[2026-01-12 12:47:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:47:06] [INFO] GET /status solicitado
+[2026-01-12 12:47:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:47:30] [INFO] GET /status solicitado
+[2026-01-12 12:47:30] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:47:38] [INFO] GET /status solicitado
+[2026-01-12 12:47:38] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:47:41] [INFO] POST /valve/1/on solicitado
+[2026-01-12 12:47:41] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 12:47:41] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 12:47:41] [INFO] GET /status solicitado
+[2026-01-12 12:47:41] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:47:42] [INFO] POST /valve/1/off solicitado
+[2026-01-12 12:47:42] [INFO] Válvula 1 APAGADA
+[2026-01-12 12:47:42] [INFO] Válvula 1 APAGADA
+[2026-01-12 12:47:42] [INFO] GET /status solicitado
+[2026-01-12 12:47:42] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:48:05] [INFO] DEBUG BODY: start='2026-01-12T12:48' end='2026-01-12T12:50'
+[2026-01-12 12:48:05] [INFO] Recibido start: 2026-01-12T12:48, end: 2026-01-12T12:50
+[2026-01-12 12:48:05] [INFO] Parsed start_dt: 2026-01-12 12:48:00-05:00, end_dt: 2026-01-12 12:50:00-05:00, now: 2026-01-12 12:48:05.523986-05:00
+[2026-01-12 12:48:05] [INFO] Programando válvula 1 de 2026-01-12 12:48:00-05:00 a 2026-01-12 12:50:00-05:00
+[2026-01-12 12:48:08] [INFO] [APScheduler] Eliminado job valve_1_on
+[2026-01-12 12:48:08] [INFO] [APScheduler] Eliminado job valve_1_off
+[2026-01-12 12:48:08] [INFO] [APScheduler] Programada válvula 1 de 2026-01-12 12:48:00-05:00 a 2026-01-12 12:50:00-05:00
+[2026-01-12 12:48:08] [INFO] Válvula 1 programada de 2026-01-12T12:48 a 2026-01-12T12:50
+[2026-01-12 12:48:08] [INFO] GET /status solicitado
+[2026-01-12 12:48:08] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:48:08] [INFO] GET /status solicitado
+[2026-01-12 12:48:08] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:48:08] [INFO] GET /status solicitado
+[2026-01-12 12:48:08] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:48:37] [INFO] GET /status solicitado
+[2026-01-12 12:48:37] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:48:38] [INFO] GET /status solicitado
+[2026-01-12 12:48:38] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:49:06] [INFO] GET /status solicitado
+[2026-01-12 12:49:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:49:06] [INFO] GET /status solicitado
+[2026-01-12 12:49:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:49:08] [INFO] GET /status solicitado
+[2026-01-12 12:49:08] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:49:38] [INFO] GET /status solicitado
+[2026-01-12 12:49:38] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:50:00] [INFO] [APScheduler] Apagando válvula 1
+[2026-01-12 12:50:00] [INFO] Válvula 1 APAGADA
+[2026-01-12 12:50:06] [INFO] GET /status solicitado
+[2026-01-12 12:50:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:50:06] [INFO] GET /status solicitado
+[2026-01-12 12:50:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:50:08] [INFO] GET /status solicitado
+[2026-01-12 12:50:08] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:50:26] [INFO] POST /valve/1/on solicitado
+[2026-01-12 12:50:26] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 12:50:26] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 12:50:27] [INFO] GET /status solicitado
+[2026-01-12 12:50:27] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:50:28] [INFO] POST /valve/1/off solicitado
+[2026-01-12 12:50:28] [INFO] Válvula 1 APAGADA
+[2026-01-12 12:50:28] [INFO] Válvula 1 APAGADA
+[2026-01-12 12:50:28] [INFO] GET /status solicitado
+[2026-01-12 12:50:28] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:50:38] [INFO] GET /status solicitado
+[2026-01-12 12:50:38] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:51:06] [INFO] GET /status solicitado
+[2026-01-12 12:51:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:51:07] [INFO] GET /status solicitado
+[2026-01-12 12:51:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:51:08] [INFO] GET /status solicitado
+[2026-01-12 12:51:08] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:52:06] [INFO] GET /status solicitado
+[2026-01-12 12:52:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:52:06] [INFO] GET /status solicitado
+[2026-01-12 12:52:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:52:06] [INFO] GET /status solicitado
+[2026-01-12 12:52:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:53:06] [INFO] GET /status solicitado
+[2026-01-12 12:53:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:53:06] [INFO] GET /status solicitado
+[2026-01-12 12:53:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:53:06] [INFO] GET /status solicitado
+[2026-01-12 12:53:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:54:06] [INFO] GET /status solicitado
+[2026-01-12 12:54:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:54:06] [INFO] GET /status solicitado
+[2026-01-12 12:54:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:54:06] [INFO] GET /status solicitado
+[2026-01-12 12:54:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:55:06] [INFO] GET /status solicitado
+[2026-01-12 12:55:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:55:06] [INFO] GET /status solicitado
+[2026-01-12 12:55:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:55:06] [INFO] GET /status solicitado
+[2026-01-12 12:55:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:56:06] [INFO] GET /status solicitado
+[2026-01-12 12:56:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:56:06] [INFO] GET /status solicitado
+[2026-01-12 12:56:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:56:06] [INFO] GET /status solicitado
+[2026-01-12 12:56:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:56:53] [INFO] GET /status solicitado
+[2026-01-12 12:56:53] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:56:54] [INFO] POST /valve/1/on solicitado
+[2026-01-12 12:56:54] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 12:56:54] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 12:56:55] [INFO] GET /status solicitado
+[2026-01-12 12:56:55] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:56:55] [INFO] POST /valve/1/off solicitado
+[2026-01-12 12:56:55] [INFO] Válvula 1 APAGADA
+[2026-01-12 12:56:55] [INFO] Válvula 1 APAGADA
+[2026-01-12 12:56:55] [INFO] GET /status solicitado
+[2026-01-12 12:56:55] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:57:03] [INFO] GET /status solicitado
+[2026-01-12 12:57:03] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:57:05] [INFO] POST /valve/1/on solicitado
+[2026-01-12 12:57:05] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 12:57:05] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 12:57:05] [INFO] GET /status solicitado
+[2026-01-12 12:57:05] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:57:06] [INFO] POST /valve/1/off solicitado
+[2026-01-12 12:57:06] [INFO] Válvula 1 APAGADA
+[2026-01-12 12:57:06] [INFO] Válvula 1 APAGADA
+[2026-01-12 12:57:06] [INFO] GET /status solicitado
+[2026-01-12 12:57:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:57:06] [INFO] GET /status solicitado
+[2026-01-12 12:57:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:57:06] [INFO] GET /status solicitado
+[2026-01-12 12:57:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:57:32] [INFO] DEBUG BODY: start='2026-01-12T13:00' end='2026-01-12T13:10'
+[2026-01-12 12:57:32] [INFO] Recibido start: 2026-01-12T13:00, end: 2026-01-12T13:10
+[2026-01-12 12:57:33] [INFO] Parsed start_dt: 2026-01-12 13:00:00-05:00, end_dt: 2026-01-12 13:10:00-05:00, now: 2026-01-12 12:57:33.033971-05:00
+[2026-01-12 12:57:33] [INFO] Programando válvula 1 de 2026-01-12 13:00:00-05:00 a 2026-01-12 13:10:00-05:00
+[2026-01-12 12:57:34] [INFO] Válvula 1 programada de 2026-01-12T13:00 a 2026-01-12T13:10
+[2026-01-12 12:57:34] [INFO] GET /status solicitado
+[2026-01-12 12:57:34] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:57:43] [INFO] GET /status solicitado
+[2026-01-12 12:57:43] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:58:03] [INFO] GET /status solicitado
+[2026-01-12 12:58:03] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:58:06] [INFO] GET /status solicitado
+[2026-01-12 12:58:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:58:06] [INFO] GET /status solicitado
+[2026-01-12 12:58:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:58:33] [INFO] GET /status solicitado
+[2026-01-12 12:58:33] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:59:03] [INFO] GET /status solicitado
+[2026-01-12 12:59:03] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:59:06] [INFO] GET /status solicitado
+[2026-01-12 12:59:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:59:06] [INFO] GET /status solicitado
+[2026-01-12 12:59:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 12:59:33] [INFO] GET /status solicitado
+[2026-01-12 12:59:33] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:00:00] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:00:03] [INFO] GET /status solicitado
+[2026-01-12 13:00:03] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:00:06] [INFO] GET /status solicitado
+[2026-01-12 13:00:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:00:06] [INFO] GET /status solicitado
+[2026-01-12 13:00:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:00:33] [INFO] GET /status solicitado
+[2026-01-12 13:00:33] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:01:03] [INFO] GET /status solicitado
+[2026-01-12 13:01:03] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:01:06] [INFO] GET /status solicitado
+[2026-01-12 13:01:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:01:06] [INFO] GET /status solicitado
+[2026-01-12 13:01:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:01:33] [INFO] GET /status solicitado
+[2026-01-12 13:01:33] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:02:03] [INFO] GET /status solicitado
+[2026-01-12 13:02:03] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:02:06] [INFO] GET /status solicitado
+[2026-01-12 13:02:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:02:06] [INFO] GET /status solicitado
+[2026-01-12 13:02:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:02:33] [INFO] GET /status solicitado
+[2026-01-12 13:02:33] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:03:03] [INFO] GET /status solicitado
+[2026-01-12 13:03:03] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:03:05] [INFO] POST /valve/1/off solicitado
+[2026-01-12 13:03:05] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:03:05] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:03:05] [INFO] GET /status solicitado
+[2026-01-12 13:03:05] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:03:06] [INFO] GET /status solicitado
+[2026-01-12 13:03:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:03:06] [INFO] GET /status solicitado
+[2026-01-12 13:03:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:03:25] [INFO] DEBUG BODY: start='2026-01-12T13:04' end='2026-01-12T13:06'
+[2026-01-12 13:03:25] [INFO] Recibido start: 2026-01-12T13:04, end: 2026-01-12T13:06
+[2026-01-12 13:03:25] [INFO] Parsed start_dt: 2026-01-12 13:04:00-05:00, end_dt: 2026-01-12 13:06:00-05:00, now: 2026-01-12 13:03:25.391502-05:00
+[2026-01-12 13:03:25] [INFO] Programando válvula 1 de 2026-01-12 13:04:00-05:00 a 2026-01-12 13:06:00-05:00
+[2026-01-12 13:03:26] [INFO] Válvula 1 programada de 2026-01-12T13:04 a 2026-01-12T13:06
+[2026-01-12 13:03:31] [INFO] GET /status solicitado
+[2026-01-12 13:03:31] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:03:33] [INFO] GET /status solicitado
+[2026-01-12 13:03:33] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:04:00] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:04:03] [INFO] GET /status solicitado
+[2026-01-12 13:04:03] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:04:06] [INFO] GET /status solicitado
+[2026-01-12 13:04:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:04:06] [INFO] GET /status solicitado
+[2026-01-12 13:04:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:04:33] [INFO] GET /status solicitado
+[2026-01-12 13:04:33] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:05:03] [INFO] GET /status solicitado
+[2026-01-12 13:05:03] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:05:06] [INFO] GET /status solicitado
+[2026-01-12 13:05:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:05:06] [INFO] GET /status solicitado
+[2026-01-12 13:05:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:05:33] [INFO] GET /status solicitado
+[2026-01-12 13:05:33] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:06:00] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:06:03] [INFO] GET /status solicitado
+[2026-01-12 13:06:03] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:06:06] [INFO] GET /status solicitado
+[2026-01-12 13:06:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:06:07] [INFO] GET /status solicitado
+[2026-01-12 13:06:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:06:27] [INFO] POST /valve/1/on solicitado
+[2026-01-12 13:06:27] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:06:27] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:06:27] [INFO] GET /status solicitado
+[2026-01-12 13:06:27] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:06:32] [INFO] POST /valve/4/on solicitado
+[2026-01-12 13:06:32] [INFO] Válvula 4 ENCENDIDA
+[2026-01-12 13:06:32] [INFO] Válvula 4 ENCENDIDA
+[2026-01-12 13:06:32] [INFO] GET /status solicitado
+[2026-01-12 13:06:32] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:06:33] [INFO] GET /status solicitado
+[2026-01-12 13:06:33] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:06:41] [INFO] POST /valve/4/off solicitado
+[2026-01-12 13:06:41] [INFO] Válvula 4 APAGADA
+[2026-01-12 13:06:41] [INFO] Válvula 4 APAGADA
+[2026-01-12 13:06:42] [INFO] GET /status solicitado
+[2026-01-12 13:06:42] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:07:03] [INFO] DEBUG BODY: start='2026-01-12T13:08' end='2026-01-12T13:09'
+[2026-01-12 13:07:03] [INFO] Recibido start: 2026-01-12T13:08, end: 2026-01-12T13:09
+[2026-01-12 13:07:03] [INFO] Parsed start_dt: 2026-01-12 13:08:00-05:00, end_dt: 2026-01-12 13:09:00-05:00, now: 2026-01-12 13:07:03.230682-05:00
+[2026-01-12 13:07:03] [INFO] Programando válvula 4 de 2026-01-12 13:08:00-05:00 a 2026-01-12 13:09:00-05:00
+[2026-01-12 13:07:04] [INFO] Válvula 4 programada de 2026-01-12T13:08 a 2026-01-12T13:09
+[2026-01-12 13:07:04] [INFO] GET /status solicitado
+[2026-01-12 13:07:04] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:07:06] [INFO] GET /status solicitado
+[2026-01-12 13:07:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:07:06] [INFO] GET /status solicitado
+[2026-01-12 13:07:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:07:08] [INFO] GET /status solicitado
+[2026-01-12 13:07:08] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:07:31] [INFO] Reinicio solicitado desde el frontend
+[2026-01-12 13:07:33] [INFO] GET /status solicitado
+[2026-01-12 13:07:33] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:08:00] [INFO] Válvula 4 ENCENDIDA
+[2026-01-12 13:08:03] [INFO] GET /status solicitado
+[2026-01-12 13:08:03] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:08:06] [INFO] GET /status solicitado
+[2026-01-12 13:08:07] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:08:07] [INFO] GET /status solicitado
+[2026-01-12 13:08:07] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:08:22] [INFO] POST /valve/1/off solicitado
+[2026-01-12 13:08:23] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:08:23] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:08:23] [INFO] GET /status solicitado
+[2026-01-12 13:08:23] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:08:33] [INFO] POST /valve/1/on solicitado
+[2026-01-12 13:08:33] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:08:33] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:08:33] [INFO] GET /status solicitado
+[2026-01-12 13:08:33] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:08:33] [INFO] GET /status solicitado
+[2026-01-12 13:08:33] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:08:35] [INFO] POST /valve/1/off solicitado
+[2026-01-12 13:08:35] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:08:35] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:08:36] [INFO] GET /status solicitado
+[2026-01-12 13:08:36] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 1, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:09:00] [INFO] Válvula 4 APAGADA
+[2026-01-12 13:09:03] [INFO] GET /status solicitado
+[2026-01-12 13:09:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:09:07] [INFO] GET /status solicitado
+[2026-01-12 13:09:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:09:07] [INFO] GET /status solicitado
+[2026-01-12 13:09:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:09:33] [INFO] GET /status solicitado
+[2026-01-12 13:09:33] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:10:00] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:10:06] [INFO] GET /status solicitado
+[2026-01-12 13:10:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:10:06] [INFO] GET /status solicitado
+[2026-01-12 13:10:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:10:06] [INFO] GET /status solicitado
+[2026-01-12 13:10:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:11:06] [INFO] GET /status solicitado
+[2026-01-12 13:11:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:11:06] [INFO] GET /status solicitado
+[2026-01-12 13:11:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:11:06] [INFO] GET /status solicitado
+[2026-01-12 13:11:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:12:06] [INFO] GET /status solicitado
+[2026-01-12 13:12:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:12:06] [INFO] GET /status solicitado
+[2026-01-12 13:12:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:12:06] [INFO] GET /status solicitado
+[2026-01-12 13:12:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:13:06] [INFO] GET /status solicitado
+[2026-01-12 13:13:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:13:06] [INFO] GET /status solicitado
+[2026-01-12 13:13:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:13:06] [INFO] GET /status solicitado
+[2026-01-12 13:13:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:14:06] [INFO] GET /status solicitado
+[2026-01-12 13:14:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:14:06] [INFO] GET /status solicitado
+[2026-01-12 13:14:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:14:06] [INFO] GET /status solicitado
+[2026-01-12 13:14:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:15:06] [INFO] GET /status solicitado
+[2026-01-12 13:15:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:15:06] [INFO] GET /status solicitado
+[2026-01-12 13:15:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:15:06] [INFO] GET /status solicitado
+[2026-01-12 13:15:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:16:06] [INFO] GET /status solicitado
+[2026-01-12 13:16:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:16:06] [INFO] GET /status solicitado
+[2026-01-12 13:16:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:16:06] [INFO] GET /status solicitado
+[2026-01-12 13:16:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:17:06] [INFO] GET /status solicitado
+[2026-01-12 13:17:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:17:06] [INFO] GET /status solicitado
+[2026-01-12 13:17:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:17:06] [INFO] GET /status solicitado
+[2026-01-12 13:17:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:18:06] [INFO] GET /status solicitado
+[2026-01-12 13:18:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:18:06] [INFO] GET /status solicitado
+[2026-01-12 13:18:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:18:06] [INFO] GET /status solicitado
+[2026-01-12 13:18:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:18:26] [INFO] GET /status solicitado
+[2026-01-12 13:18:26] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:18:28] [INFO] POST /valve/1/on solicitado
+[2026-01-12 13:18:28] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:18:28] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:18:28] [INFO] GET /status solicitado
+[2026-01-12 13:18:28] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:18:30] [INFO] POST /valve/1/off solicitado
+[2026-01-12 13:18:30] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:18:30] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:18:30] [INFO] GET /status solicitado
+[2026-01-12 13:18:30] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:18:40] [INFO] POST /valve/9/on solicitado
+[2026-01-12 13:18:40] [INFO] Válvula 9 ENCENDIDA
+[2026-01-12 13:18:40] [INFO] Válvula 9 ENCENDIDA
+[2026-01-12 13:18:40] [INFO] GET /status solicitado
+[2026-01-12 13:18:40] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 1, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:18:51] [INFO] POST /valve/1/on solicitado
+[2026-01-12 13:18:53] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:18:53] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:18:55] [INFO] POST /valve/1/on solicitado
+[2026-01-12 13:18:55] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:18:55] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:18:55] [INFO] GET /status solicitado
+[2026-01-12 13:18:55] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 1, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:18:55] [INFO] GET /status solicitado
+[2026-01-12 13:18:55] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 1, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:18:56] [INFO] GET /status solicitado
+[2026-01-12 13:18:56] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 1, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:19:01] [INFO] Reinicio solicitado desde el frontend
+[2026-01-12 13:19:06] [INFO] GET /status solicitado
+[2026-01-12 13:19:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 1, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:19:06] [INFO] GET /status solicitado
+[2026-01-12 13:19:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 1, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:19:26] [INFO] GET /status solicitado
+[2026-01-12 13:19:26] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 1, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:24:56] [INFO] GET /status solicitado
+[2026-01-12 13:24:56] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:25:06] [INFO] GET /status solicitado
+[2026-01-12 13:25:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:25:06] [INFO] GET /status solicitado
+[2026-01-12 13:25:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:25:09] [INFO] POST /valve/1/on solicitado
+[2026-01-12 13:25:09] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:25:09] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:25:10] [INFO] GET /status solicitado
+[2026-01-12 13:25:10] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:25:11] [INFO] POST /valve/1/off solicitado
+[2026-01-12 13:25:11] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:25:11] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:25:14] [INFO] GET /status solicitado
+[2026-01-12 13:25:14] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:25:18] [INFO] POST /valve/1/on solicitado
+[2026-01-12 13:25:19] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:25:19] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:25:19] [INFO] GET /status solicitado
+[2026-01-12 13:25:19] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:25:27] [INFO] Apagado solicitado desde el frontend
+[2026-01-12 13:25:27] [INFO] GET /status solicitado
+[2026-01-12 13:25:27] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:25:57] [INFO] GET /status solicitado
+[2026-01-12 13:25:57] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:26:06] [INFO] GET /status solicitado
+[2026-01-12 13:26:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:26:06] [INFO] GET /status solicitado
+[2026-01-12 13:26:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:26:27] [INFO] GET /status solicitado
+[2026-01-12 13:26:29] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:26:31] [INFO] Reinicio solicitado desde el frontend
+[2026-01-12 13:26:57] [INFO] GET /status solicitado
+[2026-01-12 13:26:57] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:27:03] [INFO] POST /valve/5/on solicitado
+[2026-01-12 13:27:04] [INFO] Válvula 5 ENCENDIDA
+[2026-01-12 13:27:04] [INFO] Válvula 5 ENCENDIDA
+[2026-01-12 13:27:04] [INFO] GET /status solicitado
+[2026-01-12 13:27:04] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:27:06] [INFO] GET /status solicitado
+[2026-01-12 13:27:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:27:06] [INFO] GET /status solicitado
+[2026-01-12 13:27:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:27:10] [INFO] POST /valve/1/off solicitado
+[2026-01-12 13:27:12] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:27:12] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:27:12] [INFO] GET /status solicitado
+[2026-01-12 13:27:12] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:27:21] [INFO] GET /status solicitado
+[2026-01-12 13:27:24] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:27:51] [INFO] GET /status solicitado
+[2026-01-12 13:27:53] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:28:06] [INFO] GET /status solicitado
+[2026-01-12 13:28:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:28:06] [INFO] GET /status solicitado
+[2026-01-12 13:28:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:28:21] [INFO] GET /status solicitado
+[2026-01-12 13:28:21] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:28:51] [INFO] GET /status solicitado
+[2026-01-12 13:28:51] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:29:06] [INFO] GET /status solicitado
+[2026-01-12 13:29:08] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:29:08] [INFO] GET /status solicitado
+[2026-01-12 13:29:08] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:29:21] [INFO] GET /status solicitado
+[2026-01-12 13:29:21] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:29:51] [INFO] GET /status solicitado
+[2026-01-12 13:29:51] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:30:06] [INFO] GET /status solicitado
+[2026-01-12 13:30:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:30:06] [INFO] GET /status solicitado
+[2026-01-12 13:30:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:30:21] [INFO] GET /status solicitado
+[2026-01-12 13:30:21] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:31:06] [INFO] GET /status solicitado
+[2026-01-12 13:31:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:31:06] [INFO] GET /status solicitado
+[2026-01-12 13:31:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:31:06] [INFO] GET /status solicitado
+[2026-01-12 13:31:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:32:06] [INFO] GET /status solicitado
+[2026-01-12 13:32:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:32:06] [INFO] GET /status solicitado
+[2026-01-12 13:32:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:32:06] [INFO] GET /status solicitado
+[2026-01-12 13:32:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:32:31] [INFO] GET /status solicitado
+[2026-01-12 13:32:31] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:32:51] [INFO] GET /status solicitado
+[2026-01-12 13:32:51] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:33:06] [INFO] GET /status solicitado
+[2026-01-12 13:33:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:33:06] [INFO] GET /status solicitado
+[2026-01-12 13:33:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:33:15] [INFO] DEBUG BODY: start='2026-01-12T13:34' end='2026-01-12T13:35'
+[2026-01-12 13:33:15] [INFO] Recibido start: 2026-01-12T13:34, end: 2026-01-12T13:35
+[2026-01-12 13:33:15] [INFO] Parsed start_dt: 2026-01-12 13:34:00-05:00, end_dt: 2026-01-12 13:35:00-05:00, now: 2026-01-12 13:33:15.342893-05:00
+[2026-01-12 13:33:15] [INFO] Programando válvula 1 de 2026-01-12 13:34:00-05:00 a 2026-01-12 13:35:00-05:00
+[2026-01-12 13:33:16] [INFO] Válvula 1 programada de 2026-01-12T13:34 a 2026-01-12T13:35
+[2026-01-12 13:33:23] [INFO] GET /status solicitado
+[2026-01-12 13:33:23] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:33:23] [INFO] GET /status solicitado
+[2026-01-12 13:33:23] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:33:51] [INFO] GET /status solicitado
+[2026-01-12 13:33:51] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:34:00] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:34:06] [INFO] GET /status solicitado
+[2026-01-12 13:34:07] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:34:07] [INFO] GET /status solicitado
+[2026-01-12 13:34:07] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:34:21] [INFO] GET /status solicitado
+[2026-01-12 13:34:25] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:35:00] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:35:06] [INFO] GET /status solicitado
+[2026-01-12 13:35:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:35:06] [INFO] GET /status solicitado
+[2026-01-12 13:35:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:35:07] [INFO] GET /status solicitado
+[2026-01-12 13:35:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:35:08] [INFO] Reinicio solicitado desde el frontend
+[2026-01-12 13:36:06] [INFO] GET /status solicitado
+[2026-01-12 13:36:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:36:06] [INFO] GET /status solicitado
+[2026-01-12 13:36:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:36:06] [INFO] GET /status solicitado
+[2026-01-12 13:36:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:37:06] [INFO] GET /status solicitado
+[2026-01-12 13:37:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:37:06] [INFO] GET /status solicitado
+[2026-01-12 13:37:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:37:06] [INFO] GET /status solicitado
+[2026-01-12 13:37:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 1, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:38:06] [INFO] GET /status solicitado
+[2026-01-12 13:38:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:38:06] [INFO] GET /status solicitado
+[2026-01-12 13:38:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:38:06] [INFO] GET /status solicitado
+[2026-01-12 13:38:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:38:08] [INFO] Reinicio solicitado desde el frontend
+[2026-01-12 13:39:06] [INFO] GET /status solicitado
+[2026-01-12 13:39:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:39:06] [INFO] GET /status solicitado
+[2026-01-12 13:39:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:39:07] [INFO] GET /status solicitado
+[2026-01-12 13:39:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:45:12] [INFO] GET /status solicitado
+[2026-01-12 13:45:14] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:45:17] [INFO] GET /status solicitado
+[2026-01-12 13:45:17] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:45:17] [INFO] GET /status solicitado
+[2026-01-12 13:45:17] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:46:06] [INFO] GET /status solicitado
+[2026-01-12 13:46:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:46:06] [INFO] GET /status solicitado
+[2026-01-12 13:46:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:46:06] [INFO] GET /status solicitado
+[2026-01-12 13:46:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:47:06] [INFO] GET /status solicitado
+[2026-01-12 13:47:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:47:07] [INFO] GET /status solicitado
+[2026-01-12 13:47:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:47:07] [INFO] GET /status solicitado
+[2026-01-12 13:47:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:48:51] [INFO] GET /status solicitado
+[2026-01-12 13:48:51] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:49:06] [INFO] GET /status solicitado
+[2026-01-12 13:49:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:49:06] [INFO] GET /status solicitado
+[2026-01-12 13:49:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:49:20] [INFO] GET /status solicitado
+[2026-01-12 13:49:20] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:49:26] [INFO] POST /valve/1/on solicitado
+[2026-01-12 13:49:26] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:49:26] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:49:26] [INFO] GET /status solicitado
+[2026-01-12 13:49:26] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:49:27] [INFO] POST /valve/1/off solicitado
+[2026-01-12 13:49:27] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:49:27] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:49:27] [INFO] GET /status solicitado
+[2026-01-12 13:49:27] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:49:48] [INFO] DEBUG BODY: start='2026-01-12T13:50' end='2026-01-12T13:51'
+[2026-01-12 13:49:48] [INFO] Recibido start: 2026-01-12T13:50, end: 2026-01-12T13:51
+[2026-01-12 13:49:48] [INFO] Parsed start_dt: 2026-01-12 13:50:00-05:00, end_dt: 2026-01-12 13:51:00-05:00, now: 2026-01-12 13:49:48.857980-05:00
+[2026-01-12 13:49:48] [INFO] Programando válvula 1 de 2026-01-12 13:50:00-05:00 a 2026-01-12 13:51:00-05:00
+[2026-01-12 13:49:50] [INFO] Válvula 1 programada de 2026-01-12T13:50 a 2026-01-12T13:51
+[2026-01-12 13:49:52] [INFO] GET /status solicitado
+[2026-01-12 13:49:52] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:49:52] [INFO] GET /status solicitado
+[2026-01-12 13:49:52] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:50:00] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 13:50:06] [INFO] GET /status solicitado
+[2026-01-12 13:50:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:50:06] [INFO] GET /status solicitado
+[2026-01-12 13:50:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:50:20] [INFO] GET /status solicitado
+[2026-01-12 13:50:20] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:50:51] [INFO] GET /status solicitado
+[2026-01-12 13:50:51] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:51:00] [INFO] Válvula 1 APAGADA
+[2026-01-12 13:51:06] [INFO] GET /status solicitado
+[2026-01-12 13:51:09] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:51:09] [INFO] GET /status solicitado
+[2026-01-12 13:51:09] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:51:21] [INFO] GET /status solicitado
+[2026-01-12 13:51:25] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:51:30] [INFO] Reinicio solicitado desde el frontend
+[2026-01-12 13:52:06] [INFO] GET /status solicitado
+[2026-01-12 13:52:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:52:06] [INFO] GET /status solicitado
+[2026-01-12 13:52:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:52:06] [INFO] GET /status solicitado
+[2026-01-12 13:52:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:53:06] [INFO] GET /status solicitado
+[2026-01-12 13:53:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:53:06] [INFO] GET /status solicitado
+[2026-01-12 13:53:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:53:06] [INFO] GET /status solicitado
+[2026-01-12 13:53:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:54:06] [INFO] GET /status solicitado
+[2026-01-12 13:54:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:54:06] [INFO] GET /status solicitado
+[2026-01-12 13:54:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:54:06] [INFO] GET /status solicitado
+[2026-01-12 13:54:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:55:06] [INFO] GET /status solicitado
+[2026-01-12 13:55:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:55:06] [INFO] GET /status solicitado
+[2026-01-12 13:55:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:55:06] [INFO] GET /status solicitado
+[2026-01-12 13:55:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:56:06] [INFO] GET /status solicitado
+[2026-01-12 13:56:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:56:06] [INFO] GET /status solicitado
+[2026-01-12 13:56:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:56:06] [INFO] GET /status solicitado
+[2026-01-12 13:56:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:57:06] [INFO] GET /status solicitado
+[2026-01-12 13:57:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:57:06] [INFO] GET /status solicitado
+[2026-01-12 13:57:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 13:57:06] [INFO] GET /status solicitado
+[2026-01-12 13:57:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:00:06] [INFO] GET /status solicitado
+[2026-01-12 14:00:10] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:00:14] [INFO] GET /status solicitado
+[2026-01-12 14:00:14] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:00:14] [INFO] GET /status solicitado
+[2026-01-12 14:00:14] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:01:12] [INFO] GET /status solicitado
+[2026-01-12 14:01:12] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:01:12] [INFO] GET /status solicitado
+[2026-01-12 14:01:12] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:01:12] [INFO] GET /status solicitado
+[2026-01-12 14:01:12] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:02:06] [INFO] GET /status solicitado
+[2026-01-12 14:02:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:02:06] [INFO] GET /status solicitado
+[2026-01-12 14:02:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:02:06] [INFO] GET /status solicitado
+[2026-01-12 14:02:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:02:35] [INFO] GET /status solicitado
+[2026-01-12 14:02:35] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:02:42] [INFO] POST /valve/1/on solicitado
+[2026-01-12 14:02:44] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 14:02:44] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 14:02:44] [INFO] POST /valve/1/on solicitado
+[2026-01-12 14:02:44] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 14:02:44] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 14:02:44] [INFO] GET /status solicitado
+[2026-01-12 14:02:44] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:02:49] [INFO] GET /status solicitado
+[2026-01-12 14:02:50] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:02:51] [INFO] GET /status solicitado
+[2026-01-12 14:02:51] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:02:56] [INFO] POST /valve/1/off solicitado
+[2026-01-12 14:02:58] [INFO] Válvula 1 APAGADA
+[2026-01-12 14:02:58] [INFO] Válvula 1 APAGADA
+[2026-01-12 14:02:58] [INFO] GET /status solicitado
+[2026-01-12 14:02:58] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:03:06] [INFO] GET /status solicitado
+[2026-01-12 14:03:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:03:06] [INFO] GET /status solicitado
+[2026-01-12 14:03:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:03:06] [INFO] GET /status solicitado
+[2026-01-12 14:03:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:03:19] [INFO] DEBUG BODY: start='2026-01-12T14:04' end='2026-01-12T14:05'
+[2026-01-12 14:03:19] [INFO] Recibido start: 2026-01-12T14:04, end: 2026-01-12T14:05
+[2026-01-12 14:03:19] [INFO] Parsed start_dt: 2026-01-12 14:04:00-05:00, end_dt: 2026-01-12 14:05:00-05:00, now: 2026-01-12 14:03:19.767358-05:00
+[2026-01-12 14:03:19] [INFO] Programando válvula 1 de 2026-01-12 14:04:00-05:00 a 2026-01-12 14:05:00-05:00
+[2026-01-12 14:03:25] [INFO] Válvula 1 programada de 2026-01-12T14:04 a 2026-01-12T14:05
+[2026-01-12 14:03:25] [INFO] GET /status solicitado
+[2026-01-12 14:03:25] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:03:25] [INFO] DEBUG BODY: start='2026-01-12T14:04' end='2026-01-12T14:05'
+[2026-01-12 14:03:25] [INFO] Recibido start: 2026-01-12T14:04, end: 2026-01-12T14:05
+[2026-01-12 14:03:25] [INFO] Parsed start_dt: 2026-01-12 14:04:00-05:00, end_dt: 2026-01-12 14:05:00-05:00, now: 2026-01-12 14:03:25.925745-05:00
+[2026-01-12 14:03:25] [INFO] Programando válvula 1 de 2026-01-12 14:04:00-05:00 a 2026-01-12 14:05:00-05:00
+[2026-01-12 14:03:28] [INFO] GET /status solicitado
+[2026-01-12 14:03:28] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:03:36] [INFO] POST /valve/1/on solicitado
+[2026-01-12 14:03:36] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 14:03:36] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 14:03:37] [INFO] GET /status solicitado
+[2026-01-12 14:03:37] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:03:39] [INFO] POST /valve/1/off solicitado
+[2026-01-12 14:03:41] [INFO] Válvula 1 APAGADA
+[2026-01-12 14:03:41] [INFO] Válvula 1 APAGADA
+[2026-01-12 14:03:41] [INFO] GET /status solicitado
+[2026-01-12 14:03:41] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:03:51] [INFO] GET /status solicitado
+[2026-01-12 14:03:51] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:04:00] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 14:04:06] [INFO] GET /status solicitado
+[2026-01-12 14:04:10] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:04:10] [INFO] GET /status solicitado
+[2026-01-12 14:04:10] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:04:10] [INFO] GET /status solicitado
+[2026-01-12 14:04:10] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:04:10] [INFO] GET /status solicitado
+[2026-01-12 14:04:10] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:04:26] [INFO] POST /valve/1/off solicitado
+[2026-01-12 14:04:26] [INFO] Válvula 1 APAGADA
+[2026-01-12 14:04:26] [INFO] Válvula 1 APAGADA
+[2026-01-12 14:04:27] [INFO] GET /status solicitado
+[2026-01-12 14:04:27] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:04:40] [INFO] GET /status solicitado
+[2026-01-12 14:04:40] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:05:00] [INFO] Válvula 1 APAGADA
+[2026-01-12 14:05:04] [INFO] DEBUG BODY: start='2026-01-12T14:05' end='2026-01-12T14:06'
+[2026-01-12 14:05:04] [INFO] Recibido start: 2026-01-12T14:05, end: 2026-01-12T14:06
+[2026-01-12 14:05:04] [INFO] Parsed start_dt: 2026-01-12 14:05:00-05:00, end_dt: 2026-01-12 14:06:00-05:00, now: 2026-01-12 14:05:04.644113-05:00
+[2026-01-12 14:05:04] [INFO] Programando válvula 1 de 2026-01-12 14:05:00-05:00 a 2026-01-12 14:06:00-05:00
+[2026-01-12 14:05:06] [INFO] Válvula 1 programada de 2026-01-12T14:05 a 2026-01-12T14:06
+[2026-01-12 14:05:06] [INFO] GET /status solicitado
+[2026-01-12 14:05:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:05:06] [INFO] GET /status solicitado
+[2026-01-12 14:05:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:05:06] [INFO] GET /status solicitado
+[2026-01-12 14:05:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:05:10] [INFO] GET /status solicitado
+[2026-01-12 14:05:10] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:05:10] [INFO] GET /status solicitado
+[2026-01-12 14:05:10] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:05:27] [INFO] GET /status solicitado
+[2026-01-12 14:05:27] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:05:44] [INFO] DEBUG BODY: start='2026-01-12T14:06' end='2026-01-12T14:07'
+[2026-01-12 14:05:44] [INFO] Recibido start: 2026-01-12T14:06, end: 2026-01-12T14:07
+[2026-01-12 14:05:44] [INFO] Parsed start_dt: 2026-01-12 14:06:00-05:00, end_dt: 2026-01-12 14:07:00-05:00, now: 2026-01-12 14:05:44.718085-05:00
+[2026-01-12 14:05:44] [INFO] Programando válvula 1 de 2026-01-12 14:06:00-05:00 a 2026-01-12 14:07:00-05:00
+[2026-01-12 14:05:47] [INFO] Válvula 1 programada de 2026-01-12T14:06 a 2026-01-12T14:07
+[2026-01-12 14:05:50] [INFO] GET /status solicitado
+[2026-01-12 14:05:50] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:05:57] [INFO] GET /status solicitado
+[2026-01-12 14:05:57] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:06:00] [INFO] Válvula 1 APAGADA
+[2026-01-12 14:06:06] [INFO] GET /status solicitado
+[2026-01-12 14:06:08] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:06:08] [INFO] GET /status solicitado
+[2026-01-12 14:06:08] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:06:08] [INFO] GET /status solicitado
+[2026-01-12 14:06:08] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:06:18] [INFO] GET /status solicitado
+[2026-01-12 14:06:18] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:06:39] [INFO] POST /valve/1/on solicitado
+[2026-01-12 14:06:39] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 14:06:39] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 14:06:39] [INFO] GET /status solicitado
+[2026-01-12 14:06:39] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:06:41] [INFO] POST /valve/1/off solicitado
+[2026-01-12 14:06:41] [INFO] Válvula 1 APAGADA
+[2026-01-12 14:06:41] [INFO] Válvula 1 APAGADA
+[2026-01-12 14:06:41] [INFO] GET /status solicitado
+[2026-01-12 14:06:41] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:06:48] [INFO] GET /status solicitado
+[2026-01-12 14:06:49] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:07:00] [INFO] Válvula 1 APAGADA
+[2026-01-12 14:07:05] [INFO] POST /valve/1/on solicitado
+[2026-01-12 14:07:05] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 14:07:05] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 14:07:06] [INFO] GET /status solicitado
+[2026-01-12 14:07:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:07:06] [INFO] GET /status solicitado
+[2026-01-12 14:07:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:07:06] [INFO] GET /status solicitado
+[2026-01-12 14:07:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:07:06] [INFO] GET /status solicitado
+[2026-01-12 14:07:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:07:07] [INFO] POST /valve/1/off solicitado
+[2026-01-12 14:07:07] [INFO] Válvula 1 APAGADA
+[2026-01-12 14:07:07] [INFO] Válvula 1 APAGADA
+[2026-01-12 14:07:07] [INFO] GET /status solicitado
+[2026-01-12 14:07:07] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:07:18] [INFO] GET /status solicitado
+[2026-01-12 14:07:18] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:07:43] [INFO] DEBUG BODY: start='2026-01-12T14:08' end='2026-01-12T14:10'
+[2026-01-12 14:07:43] [INFO] Recibido start: 2026-01-12T14:08, end: 2026-01-12T14:10
+[2026-01-12 14:07:43] [INFO] Parsed start_dt: 2026-01-12 14:08:00-05:00, end_dt: 2026-01-12 14:10:00-05:00, now: 2026-01-12 14:07:43.808050-05:00
+[2026-01-12 14:07:43] [INFO] Programando válvula 1 de 2026-01-12 14:08:00-05:00 a 2026-01-12 14:10:00-05:00
+[2026-01-12 14:07:46] [INFO] Válvula 1 programada de 2026-01-12T14:08 a 2026-01-12T14:10
+[2026-01-12 14:07:50] [INFO] GET /status solicitado
+[2026-01-12 14:07:50] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:07:50] [INFO] GET /status solicitado
+[2026-01-12 14:07:50] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:08:00] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 14:08:06] [INFO] GET /status solicitado
+[2026-01-12 14:08:12] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:08:12] [INFO] GET /status solicitado
+[2026-01-12 14:08:12] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:08:12] [INFO] GET /status solicitado
+[2026-01-12 14:08:12] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:08:18] [INFO] GET /status solicitado
+[2026-01-12 14:08:18] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:08:48] [INFO] GET /status solicitado
+[2026-01-12 14:08:48] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:09:06] [INFO] GET /status solicitado
+[2026-01-12 14:09:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:09:06] [INFO] GET /status solicitado
+[2026-01-12 14:09:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:09:06] [INFO] GET /status solicitado
+[2026-01-12 14:09:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:09:18] [INFO] GET /status solicitado
+[2026-01-12 14:09:18] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:09:48] [INFO] GET /status solicitado
+[2026-01-12 14:09:48] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:10:00] [INFO] Válvula 1 APAGADA
+[2026-01-12 14:10:06] [INFO] GET /status solicitado
+[2026-01-12 14:10:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:10:06] [INFO] GET /status solicitado
+[2026-01-12 14:10:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:10:06] [INFO] GET /status solicitado
+[2026-01-12 14:10:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:10:20] [INFO] GET /status solicitado
+[2026-01-12 14:10:20] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:10:22] [INFO] POST /valve/1/on solicitado
+[2026-01-12 14:10:22] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 14:10:22] [INFO] Válvula 1 ENCENDIDA
+[2026-01-12 14:10:23] [INFO] GET /status solicitado
+[2026-01-12 14:10:23] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:10:24] [INFO] POST /valve/1/off solicitado
+[2026-01-12 14:10:24] [INFO] Válvula 1 APAGADA
+[2026-01-12 14:10:24] [INFO] Válvula 1 APAGADA
+[2026-01-12 14:10:24] [INFO] GET /status solicitado
+[2026-01-12 14:10:24] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:10:50] [INFO] GET /status solicitado
+[2026-01-12 14:10:50] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:11:06] [INFO] GET /status solicitado
+[2026-01-12 14:11:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:11:06] [INFO] GET /status solicitado
+[2026-01-12 14:11:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:11:06] [INFO] GET /status solicitado
+[2026-01-12 14:11:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:11:20] [INFO] GET /status solicitado
+[2026-01-12 14:11:20] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:11:50] [INFO] GET /status solicitado
+[2026-01-12 14:11:50] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:12:06] [INFO] GET /status solicitado
+[2026-01-12 14:12:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:12:06] [INFO] GET /status solicitado
+[2026-01-12 14:12:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:12:06] [INFO] GET /status solicitado
+[2026-01-12 14:12:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:12:20] [INFO] GET /status solicitado
+[2026-01-12 14:12:20] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:12:50] [INFO] GET /status solicitado
+[2026-01-12 14:12:50] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:13:06] [INFO] GET /status solicitado
+[2026-01-12 14:13:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:13:06] [INFO] GET /status solicitado
+[2026-01-12 14:13:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:13:06] [INFO] GET /status solicitado
+[2026-01-12 14:13:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:13:20] [INFO] GET /status solicitado
+[2026-01-12 14:13:20] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:13:50] [INFO] GET /status solicitado
+[2026-01-12 14:13:50] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:14:06] [INFO] GET /status solicitado
+[2026-01-12 14:14:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:14:06] [INFO] GET /status solicitado
+[2026-01-12 14:14:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:14:06] [INFO] GET /status solicitado
+[2026-01-12 14:14:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:14:20] [INFO] GET /status solicitado
+[2026-01-12 14:14:20] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:14:50] [INFO] GET /status solicitado
+[2026-01-12 14:14:50] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:15:06] [INFO] GET /status solicitado
+[2026-01-12 14:15:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:15:06] [INFO] GET /status solicitado
+[2026-01-12 14:15:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:15:06] [INFO] GET /status solicitado
+[2026-01-12 14:15:06] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:15:20] [INFO] GET /status solicitado
+[2026-01-12 14:15:20] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-12 14:15:50] [INFO] GET /status solicitado
+[2026-01-12 14:15:50] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:12:00] [INFO] GET /status solicitado
+[2026-01-13 06:12:00] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:12:19] [INFO] POST /valve/1/on solicitado
+[2026-01-13 06:12:19] [INFO] Válvula 1 ENCENDIDA
+[2026-01-13 06:12:19] [INFO] Válvula 1 ENCENDIDA
+[2026-01-13 06:12:19] [INFO] GET /status solicitado
+[2026-01-13 06:12:19] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:12:30] [INFO] GET /status solicitado
+[2026-01-13 06:12:30] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:12:37] [INFO] POST /valve/1/off solicitado
+[2026-01-13 06:12:37] [INFO] Válvula 1 APAGADA
+[2026-01-13 06:12:37] [INFO] Válvula 1 APAGADA
+[2026-01-13 06:12:37] [INFO] GET /status solicitado
+[2026-01-13 06:12:37] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:13:00] [INFO] GET /status solicitado
+[2026-01-13 06:13:00] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:13:05] [INFO] POST /valve/1/on solicitado
+[2026-01-13 06:13:05] [INFO] Válvula 1 ENCENDIDA
+[2026-01-13 06:13:05] [INFO] Válvula 1 ENCENDIDA
+[2026-01-13 06:13:06] [INFO] GET /status solicitado
+[2026-01-13 06:13:06] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:13:13] [INFO] Apagado solicitado desde el frontend
+[2026-01-13 06:13:30] [INFO] GET /status solicitado
+[2026-01-13 06:13:30] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:13:59] [INFO] POST /valve/1/off solicitado
+[2026-01-13 06:13:59] [INFO] Válvula 1 APAGADA
+[2026-01-13 06:13:59] [INFO] Válvula 1 APAGADA
+[2026-01-13 06:13:59] [INFO] GET /status solicitado
+[2026-01-13 06:13:59] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:14:00] [INFO] GET /status solicitado
+[2026-01-13 06:14:00] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:14:31] [INFO] GET /status solicitado
+[2026-01-13 06:14:31] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:14:33] [INFO] POST /valve/1/on solicitado
+[2026-01-13 06:14:33] [INFO] Válvula 1 ENCENDIDA
+[2026-01-13 06:14:33] [INFO] Válvula 1 ENCENDIDA
+[2026-01-13 06:14:34] [INFO] GET /status solicitado
+[2026-01-13 06:14:34] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:14:35] [INFO] POST /valve/1/off solicitado
+[2026-01-13 06:14:35] [INFO] Válvula 1 APAGADA
+[2026-01-13 06:14:35] [INFO] Válvula 1 APAGADA
+[2026-01-13 06:14:35] [INFO] GET /status solicitado
+[2026-01-13 06:14:35] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:14:50] [INFO] POST /valve/1/on solicitado
+[2026-01-13 06:14:50] [INFO] Válvula 1 ENCENDIDA
+[2026-01-13 06:14:50] [INFO] Válvula 1 ENCENDIDA
+[2026-01-13 06:14:52] [INFO] GET /status solicitado
+[2026-01-13 06:14:52] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:14:53] [INFO] POST /valve/1/off solicitado
+[2026-01-13 06:14:53] [INFO] Válvula 1 APAGADA
+[2026-01-13 06:14:53] [INFO] Válvula 1 APAGADA
+[2026-01-13 06:14:53] [INFO] GET /status solicitado
+[2026-01-13 06:14:53] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:14:55] [INFO] POST /valve/1/on solicitado
+[2026-01-13 06:14:55] [INFO] Válvula 1 ENCENDIDA
+[2026-01-13 06:14:55] [INFO] Válvula 1 ENCENDIDA
+[2026-01-13 06:14:55] [INFO] GET /status solicitado
+[2026-01-13 06:14:55] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:14:57] [INFO] POST /valve/1/off solicitado
+[2026-01-13 06:14:58] [INFO] Válvula 1 APAGADA
+[2026-01-13 06:14:58] [INFO] Válvula 1 APAGADA
+[2026-01-13 06:14:58] [INFO] GET /status solicitado
+[2026-01-13 06:14:58] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:15:00] [INFO] GET /status solicitado
+[2026-01-13 06:15:00] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:15:30] [INFO] GET /status solicitado
+[2026-01-13 06:15:30] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:16:00] [INFO] GET /status solicitado
+[2026-01-13 06:16:00] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:16:30] [INFO] GET /status solicitado
+[2026-01-13 06:16:30] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:32:23] [INFO] GET /status solicitado
+[2026-01-13 06:32:23] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:32:23] [INFO] GET /status solicitado
+[2026-01-13 06:32:23] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:32:24] [INFO] GET /status solicitado
+[2026-01-13 06:32:24] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:32:24] [INFO] GET /status solicitado
+[2026-01-13 06:32:24] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:32:32] [INFO] POST /valve/1/on solicitado
+[2026-01-13 06:32:32] [INFO] Válvula 1 ENCENDIDA
+[2026-01-13 06:32:32] [INFO] Válvula 1 ENCENDIDA
+[2026-01-13 06:32:32] [INFO] GET /status solicitado
+[2026-01-13 06:32:32] [INFO] Estado de válvulas: {1: 1, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}
+[2026-01-13 06:32:34] [INFO] POST /valve/1/off solicitado
+[2026-01-13 06:32:34] [INFO] Válvula 1 APAGADA
+[2026-01-13 06:32:34] [INFO] Válvula 1 APAGADA
+[2026-01-13 06:32:34] [INFO] GET /status solicitado
+[2026-01-13 06:32:34] [INFO] Estado de válvulas: {1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0}

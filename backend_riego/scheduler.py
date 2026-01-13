@@ -1,78 +1,69 @@
 # scheduler.py
-import threading
-import time as t
+
+from apscheduler.schedulers.background import BackgroundScheduler
+from apscheduler.jobstores.sqlalchemy import SQLAlchemyJobStore
 from datetime import datetime
+import os
+import logging
+
+# Importar funciones de control de válvulas
 from backend_riego.valves import turn_on, turn_off
-from backend_riego.logger import log_event
 
-# Diccionarios para almacenar tareas activas
-scheduled_tasks = {}
-scheduled_hour_tasks = {}
+# =========================
+# LOGGER
+# =========================
+logger = logging.getLogger("scheduler")
+logger.setLevel(logging.INFO)
+if not logger.handlers:
+    ch = logging.StreamHandler()
+    ch.setLevel(logging.INFO)
+    formatter = logging.Formatter('[%(asctime)s] %(levelname)s - %(message)s')
+    ch.setFormatter(formatter)
+    logger.addHandler(ch)
 
-# --- Programación por segundos (legacy) ---
+# =========================
+# JOBSTORE (persistencia)
+# =========================
+DB_PATH = os.path.expanduser("~/riego-api/jobs.sqlite")
+jobstores = {
+    'default': SQLAlchemyJobStore(url=f"sqlite:///{DB_PATH}")
+}
+
+# =========================
+# SCHEDULER
+# =========================
+scheduler = BackgroundScheduler(jobstores=jobstores)
+scheduler.start()
+logger.info("Scheduler iniciado con persistencia en %s", DB_PATH)
+
+# =========================
+# FUNCIONES DE PROGRAMACIÓN
+# =========================
 def schedule_valve(valve_id: int, seconds: int):
-    """Programa la válvula para encender por X segundos"""
-    def task():
-        log_event(f"[Segundos] Válvula {valve_id} ENCENDIDA por {seconds} segundos")
-        turn_on(valve_id)
-        t.sleep(seconds)
-        turn_off(valve_id)
-        log_event(f"[Segundos] Válvula {valve_id} APAGADA")
-        # Eliminar tarea al finalizar
-        scheduled_tasks.pop(valve_id, None)
+    """Programa una válvula por segundos"""
+    now = datetime.now()
+    end_time = now + timedelta(seconds=seconds)
+    scheduler.add_job(turn_on, 'date', run_date=now, args=[valve_id])
+    scheduler.add_job(turn_off, 'date', run_date=end_time, args=[valve_id])
+    logger.info("Válvula %d programada por %d segundos (%s -> %s)", valve_id, seconds, now, end_time)
 
-    if valve_id in scheduled_tasks:
-        log_event(f"[Segundos] Cancelando tarea previa de la válvula {valve_id}")
-        scheduled_tasks[valve_id].cancel()
+def schedule_valve_hours(valve_id: int, start_dt: datetime, end_dt: datetime):
+    """Programa una válvula para encenderse y apagarse entre start_dt y end_dt"""
+    logger.info("Programando válvula %d: %s -> %s", valve_id, start_dt, end_dt)
+    
+    # Job para encender la válvula
+    scheduler.add_job(turn_on, 'date', run_date=start_dt, args=[valve_id], id=f"valve{valve_id}_on_{start_dt.timestamp()}")
+    
+    # Job para apagar la válvula
+    scheduler.add_job(turn_off, 'date', run_date=end_dt, args=[valve_id], id=f"valve{valve_id}_off_{end_dt.timestamp()}")
+    
+    logger.info("Válvula %d programada en scheduler (on: %s, off: %s)", valve_id, start_dt, end_dt)
 
-    thread = threading.Thread(target=task)
-    thread.start()
-    scheduled_tasks[valve_id] = thread
-
-# --- Programación por horas ---
-
-def schedule_valve_hours(valve_id: int, start: datetime, end: datetime):
-    """
-    Programa la válvula para encender automáticamente solo entre la fecha y hora de inicio y fin exactas.
-    Funciona en background usando un thread que espera hasta la hora de inicio y luego controla la válvula.
-    """
-    def hour_task():
-        now = datetime.now()
-        log_event(f"[Fecha/Hora] Programando válvula {valve_id}: {start} -> {end} (ahora: {now})")
-
-        # Si la hora de inicio es futura, esperar hasta entonces
-        if start > now:
-            wait_seconds = (start - now).total_seconds()
-            log_event(f"[Fecha/Hora] Esperando {wait_seconds:.0f} segundos hasta el inicio")
-            t.sleep(wait_seconds)
-
-        # Verificar nuevamente después de esperar
-        now = datetime.now()
-        log_event(f"[Fecha/Hora] Después de esperar, ahora: {now}, start: {start}, end: {end}")
-        if start <= now <= end:
-            log_event(f"[Fecha/Hora] Válvula {valve_id} ENCENDIDA (inicio del rango)")
-            turn_on(valve_id)
-
-            # Calcular cuánto tiempo mantener encendida
-            remaining_seconds = (end - now).total_seconds()
-            log_event(f"[Fecha/Hora] Tiempo restante: {remaining_seconds:.0f} segundos")
-            if remaining_seconds > 0:
-                log_event(f"[Fecha/Hora] Manteniendo encendida por {remaining_seconds:.0f} segundos")
-                t.sleep(remaining_seconds)
-
-            # Apagar al final del rango
-            log_event(f"[Fecha/Hora] Válvula {valve_id} APAGADA (fin del rango)")
-            turn_off(valve_id)
-        else:
-            log_event(f"[Fecha/Hora] Rango de tiempo expirado o inválido para válvula {valve_id}: start <= now <= end? {start <= now <= end}, now > end? {now > end}")
-
-    # Cancelar tarea previa si existe
-    if valve_id in scheduled_hour_tasks:
-        log_event(f"[Fecha/Hora] Cancelando tarea previa de la válvula {valve_id}")
-        # No podemos cancelar threads daemon fácilmente, pero podemos marcar como None
-        scheduled_hour_tasks[valve_id] = None
-
-    thread = threading.Thread(target=hour_task, daemon=True)
-    thread.start()
-    scheduled_hour_tasks[valve_id] = thread
-    log_event(f"[Fecha/Hora] Thread iniciado para válvula {valve_id}")
+# =========================
+# OPCIONAL: Restaurar tareas al iniciar (si quieres auto-recovery)
+# =========================
+def restore_jobs():
+    jobs = scheduler.get_jobs()
+    logger.info("Jobs restaurados al iniciar: %d", len(jobs))
+    for job in jobs:
+        logger.info("Job activo: %s -> %s", job.id, job.next_run_time)
